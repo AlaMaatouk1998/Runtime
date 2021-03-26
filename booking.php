@@ -72,7 +72,7 @@ $row = mysqli_fetch_array($movieImageById);
    $str=implode(",", $i);
 
    
-   echo ($N*10) ?></td>
+   echo ($i[1]) ?></td>
                     </tr>
                     
                 </table>
