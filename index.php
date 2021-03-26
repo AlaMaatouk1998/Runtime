@@ -10,6 +10,7 @@
     <title>Le Majestic</title>
     <link rel="icon" type="image/png" href="img/logo.png">
     <script src="_.js "></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
@@ -18,11 +19,40 @@
     $sql = "SELECT * FROM movieTable";
     ?>
     <header></header>
-    <div id="home-section-1" class="movie-show-container">
-        <h1>Currently Showing</h1>
-        <h3>Book a movie now</h3>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active dark-overlay">
+      <img class="d-block w-100" src="img/movie-thumb-7.jpg" alt="First slide">
+      <div class="carousel-content">
+        <p><h1>The <br> Irishman </h1> </p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/movie-thumb-5.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/movie-thumb-3.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    <div id="home-section-1" style="padding-top: 100px;">
+        <h1><strong style="margin-left: 150px;">Currently Showing</strong></h1>
+        <h3><strong style="margin-left: 170px;">Book a movie now</strong></h3>
 
-        <div class="movies-container">
+        <div class="movies-container"   style="padding-top: 50px;">
 
             <?php
             if ($result = mysqli_query($con, $sql)) {
