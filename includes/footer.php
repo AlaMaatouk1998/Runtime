@@ -1,7 +1,15 @@
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <div class="footer-section footer-section1">
 <div class="footer-brand">
     <a href="index.php">
-    <img src="img/majes.png" width="500" height="300">    </a> 
+    <img src="img/majes.png" width="250" height="auto"></a> 
 </div>    
 </div>
 <div class="footer-section footer-section2">
@@ -18,7 +26,7 @@
     <a href="contact-us.php">Contact</a>
 </div>
 
-<!-- <footer class="bg-dark d-flex justify-content-center">
+<footer class="bg-dark d-flex justify-content-center">
     <h2 class="text-white" href="#">COVID-19 LIVE STATS</h2>
-    <h2 style="color:#fff;">Developed By <a target="_blank" class="navbar-brand line text-white" href="https://github.com/aman05382/">Aman Sharma</a></h2>
-</footer> -->
+    <h2 style="color:#fff;">Developed By RunTime Terror <a target="_blank" class="navbar-brand line text-white" href="#"></a></h2>
+</footer>
