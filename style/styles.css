@@ -11,6 +11,17 @@ body{
   font-size: 2rem !important;
 }
 
+.button {     
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border:1px solid #ea5b16 ;
+  cursor:pointer;
+  overflow: hidden; 
+  border-radius: 30px;       
+}
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -18,16 +29,19 @@ body{
   font-family: "poppins";
   text-decoration: none;
   color: white;
-  border-radius: 30px;
+ /* border-radius: 30px;*/
 }
 
 .carousel-content {
   position: absolute;
-  bottom: 10%;
-  left: 5%;
+  font-family: poppins;
+  font-weight: bold;
+  bottom: 50%;
+  left: 17%;
   z-index: 20;
   color: white;
   text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  font-size: 6em;
 }
 /* Header Styling */
 
@@ -38,30 +52,6 @@ body{
 
 header {
   z-index: 1000;
-}
-
-
-.navbar-menu {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-.navbar ul li {
-  float: left;
-  display: block;
-  transition-duration: 0.5s;
-  border-radius: 50px;
-}
-
-.navbar ul li:hover {
-  cursor: pointer;
-  background-color: #aa964c;
-}
-
-.navbar ul li:hover > a {
-  color: #ffffff;
 }
 
 .navbar-menu li ul {

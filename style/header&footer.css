@@ -26,8 +26,15 @@
 }
 */
 /*ala*/
+#navbar_top {
+  background-color: transparent !important;
+  position: absolute;
+  z-index: 999;
+}
 .header_menu{
     background-color: transparent;
+    position: absolute;
+    z-index: 99;
   }
   /*ala*/
   nav {
@@ -39,3 +46,30 @@
     display: flex;
     justify-content: center !important;
   }
+  #main_nav{
+    float: right;
+    padding-left: 100%;
+  }
+  .navbar-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .navbar ul li {
+    float: left;
+    display: block;
+    transition-duration: 0.5s;
+    border-radius: 50px;
+  }
+  
+  .navbar ul li:hover {
+    cursor: pointer;
+    background-color: #aa964c;
+  }
+  
+  .navbar ul li:hover > a {
+    color: #ffffff;
+  }
+  
