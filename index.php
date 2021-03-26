@@ -99,37 +99,9 @@
             ?>
         </div>
     </div>
-
-    <div id="home-section-2" class="services-section">
-        <h1>How it works</h1>
-        <h3>3 Simple steps to book your favourit movie!</h3>
-
-        <div class="services-container">
-            <div class="service-item">
-                <div class="service-item-icon">
-                    <i class="fas fa-4x fa-video"></i>
-                </div>
-                <h2>1. Choose your favourite movie</h2>
-            </div>
-            <div class="service-item">
-                <div class="service-item-icon">
-                    <i class="fas fa-4x fa-credit-card"></i>
-                </div>
-                <h2>2. Pay for your tickets</h2>
-            </div>
-            <div class="service-item">
-                <div class="service-item-icon">
-                    <i class="fas fa-4x fa-theater-masks"></i>
-                </div>
-                <h2>3. Pick your seats & Enjoy watching</h2>
-            </div>
-            <div class="service-item"></div>
-            <div class="service-item"></div>
-        </div>
-    </div>
     <div id="home-section-3" class="trailers-section">
-        <h1 class="section-title">Explore new movies</h1>
-        <h3>Now showing</h3>
+    <h1><strong style="margin-left: 0px;">Explore new movies</strong></h1>
+    <h3><strong style="margin-left: 20px;">Now Showing</strong></h3>
         <div class="trailers-grid">
             <div class="trailers-grid-item">
                 <img src="img/movie-thumb-1.jpg" alt="">
