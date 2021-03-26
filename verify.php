@@ -46,7 +46,10 @@ $result = mysqli_query($con, $qry);
 ?>
 <!doctype html>
 <html lang="en">
-
+<?php
+header('Location: index.php');
+exit;
+?>
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">

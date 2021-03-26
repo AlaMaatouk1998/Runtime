@@ -10,6 +10,7 @@
     <title>Le Majestic</title>
     <link rel="icon" type="image/png" href="img/logo.png">
     <script src="_.js "></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
@@ -18,11 +19,59 @@
     $sql = "SELECT * FROM movieTable";
     ?>
     <header></header>
-    <div id="home-section-1" class="movie-show-container">
-        <h1>Currently Showing</h1>
-        <h3>Book a movie now</h3>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active dark-overlay">
+      <img class="d-block w-100" src="img/movie-thumb-7.jpg" alt="First slide">
+      <div class="carousel-content">
+        <p>The <br> Irishman </p>
+        <button class="button_hcarou" type="button">
+            <h4>Coming soon</h4> 
+        </button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/movie-thumb-5.jpg" alt="Second slide">
+      <div class="carousel-content">
+        <p>VICE</p>
+        <a href="#">
+            <button class="button_hcarou" type="button">
+            <h4>Details</h4> 
+            </button>
+        </a>     
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/movie-thumb-3.jpg" alt="Third slide">
+      <div class="carousel-content">
+        <p>The<br>Lego Movie</p>
+        <a href="#">
+            <button class="button_hcarou" type="button">
+            <h4>Details</h4> 
+            </button>
+        </a>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    <div id="home-section-1" style="padding-top: 100px;">
+        <h1><strong style="margin-left: 150px;">Currently Showing</strong></h1>
+        <h3><strong style="margin-left: 170px;">Book a movie now</strong></h3>
 
-        <div class="movies-container">
+        <div class="movies-container"   style="padding-top: 50px;">
 
             <?php
             if ($result = mysqli_query($con, $sql)) {
@@ -50,37 +99,9 @@
             ?>
         </div>
     </div>
-
-    <div id="home-section-2" class="services-section">
-        <h1>How it works</h1>
-        <h3>3 Simple steps to book your favourit movie!</h3>
-
-        <div class="services-container">
-            <div class="service-item">
-                <div class="service-item-icon">
-                    <i class="fas fa-4x fa-video"></i>
-                </div>
-                <h2>1. Choose your favourite movie</h2>
-            </div>
-            <div class="service-item">
-                <div class="service-item-icon">
-                    <i class="fas fa-4x fa-credit-card"></i>
-                </div>
-                <h2>2. Pay for your tickets</h2>
-            </div>
-            <div class="service-item">
-                <div class="service-item-icon">
-                    <i class="fas fa-4x fa-theater-masks"></i>
-                </div>
-                <h2>3. Pick your seats & Enjoy watching</h2>
-            </div>
-            <div class="service-item"></div>
-            <div class="service-item"></div>
-        </div>
-    </div>
     <div id="home-section-3" class="trailers-section">
-        <h1 class="section-title">Explore new movies</h1>
-        <h3>Now showing</h3>
+    <h1><strong style="margin-left: 0px;">Explore new movies</strong></h1>
+    <h3><strong style="margin-left: 20px;">Now Showing</strong></h3>
         <div class="trailers-grid">
             <div class="trailers-grid-item">
                 <img src="img/movie-thumb-1.jpg" alt="">

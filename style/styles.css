@@ -1,20 +1,60 @@
 @import url("https://fonts.googleapis.com/css?family=poppins");
 
-
 body{
-   background-image: url(../img/bg.png) ;
-  background-position: center;
-  background-size: cover;
+  background: radial-gradient( #31415E 100%, #233657 88%)!important;
 }
+.h1, h1 {
+  font-size: 4rem !important;
+}
+
+.h3, h3{
+  font-size: 2rem !important;
+}
+
+.button {     
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border:1px solid #ea5b16 ;
+  cursor:pointer;
+  overflow: hidden; 
+  border-radius: 30px;       
+}
+.button_hcarou {     
+    background-color: #ea5b16;
+    background-repeat: no-repeat;
+    border: 0px solid #ea5b16;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 90px;
+    outline: none !important;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;  
+}
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "poppins";
   text-decoration: none;
-  color: unset;
+  color: white;
+ /* border-radius: 30px;*/
 }
 
+.carousel-content {
+  position: absolute;
+  font-family: poppins;
+  font-weight: bold;
+  bottom: 25%;
+  left: 17%;
+  z-index: 20;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  font-size: 6em;
+}
 /* Header Styling */
 
 #home-section-2,
@@ -24,30 +64,6 @@ body{
 
 header {
   z-index: 1000;
-}
-
-
-.navbar-menu {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-.navbar ul li {
-  float: left;
-  display: block;
-  transition-duration: 0.5s;
-  border-radius: 50px;
-}
-
-.navbar ul li:hover {
-  cursor: pointer;
-  background-color: #aa964c;
-}
-
-.navbar ul li:hover > a {
-  color: #ffffff;
 }
 
 .navbar-menu li ul {
@@ -191,6 +207,8 @@ footer {
 .movie-box {
   position: relative;
   margin: 10px 0;
+  border-radius: 30px;
+  box-shadow: -7px 6px 36px 4px rgba(0, 0, 0, 0.2);
 }
 
 .movie-box img {
