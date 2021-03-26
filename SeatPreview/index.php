@@ -653,20 +653,22 @@ if ((!$_GET['id'])) {
 	
 			<!-- /rows -->
 			<ul class="legend">
-				<li class="legend__item legend__item--free">Free</li>
-				<li class="legend__item legend__item--reserved">Reserved</li>
-				<li class="legend__item legend__item--selected">Selected</li>
-			</ul>
-			<!-- <a href="index1.html" class="action action--buy">Buy tickets</a> -->
-			<form action="../action_page.php" method="post">
+                <li class="legenditem legenditem--free">Free</li>
+                <li class="legenditem legenditem--reserved">Reserved</li>
+                <li class="legenditem legenditem--selected">Selected</li>
+            </ul>
+            <a href="index1.html" class="action action--buy">Buy tickets</a>
+            <form action="../booking.php" method="post">
 <input type="text" id="lname" name="lname[]" value="0"><br><br>
-  <input type="submit" class="action action--buy" value="Get your ticket">
+<input type="hidden" name="id" value="<?php echo $id; ?>">
+
+  <input type="submit" value="Submit">
 </form>
-		</div><!-- /plan -->
-		<button class="action action--lookaround action--disabled" arial-label="Unlook View"></button>
-		<script src="js/classie.js"></script>
-		<script src="js/main.js"></script>
-		<script>
+        </div><!-- /plan -->
+        <button class="action action--lookaround action--disabled" arial-label="Unlook View"></button>
+        <script src="js/classie.js"></script>
+        <script src="js/main.js"></script>
+        <script>
 var ids = [];
 function myFunction(x) {
   ids.push(x);
