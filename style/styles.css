@@ -11,6 +11,17 @@ body{
   font-size: 2rem !important;
 }
 
+.button {     
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border:1px solid #ea5b16 ;
+  cursor:pointer;
+  overflow: hidden; 
+  border-radius: 30px;       
+}
+
+
+
 * {
   margin: 0;
   padding: 0;
