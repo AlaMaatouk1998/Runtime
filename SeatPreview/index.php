@@ -653,9 +653,9 @@ if ((!$_GET['id'])) {
 	
 			<!-- /rows -->
 			<ul class="legend">
-                <li class="legenditem legenditem--free">Free</li>
-                <li class="legenditem legenditem--reserved">Reserved</li>
-                <li class="legenditem legenditem--selected">Selected</li>
+         	    <li class="legend__item legend__item--free">Free</li>
+				<li class="legend__item legend__item--reserved">Reserved</li>
+				<li class="legend__item legend__item--selected">Selected</li>
             </ul>
            <!-- <a href="index1.html" class="action action--buy">Buy tickets</a>-->
             <form action="../booking.php" method="post">
