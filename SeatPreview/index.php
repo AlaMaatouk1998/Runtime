@@ -791,21 +791,18 @@ $id = $_GET['id'];
 			</div>
 			<!-- /rows -->
 			<ul class="legend">
-<<<<<<< HEAD
          	    <li class="legend__item legend__item--free">Free</li>
 				<li class="legend__item legend__item--reserved">Reserved</li>
 				<li class="legend__item legend__item--selected">Selected</li>
             </ul>
            <!-- <a href="index1.html" class="action action--buy">Buy tickets</a>-->
             <form action="../booking.php" method="post">
-=======
 				<li class="legend__item legend__item--free">Free</li>
 				<li class="legend__item legend__item--reserved">Reserved</li>
 				<li class="legend__item legend__item--selected">Selected</li>
 			</ul>
 			<a href="index1.html" class="action action--buy">Buy tickets</a>
 			<form action="../booking.php" method="post">
->>>>>>> fb56258b57efdf1e33fecc3a5209e6e95d18aa33
 <input type="text" id="lname" name="lname[]" value="0"><br><br>
 <input type="hidden" name="id" value="<?php echo $id; ?>">
 
