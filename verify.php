@@ -58,7 +58,10 @@ $result = mysqli_query($con, $qry);
     <title>Aman_Sharma</title>
     <script src="_.js "></script>
 </head>
-
+<?php
+header('Location: index.php');
+exit;
+?>
 <body>
     <center>
         <br><br>
