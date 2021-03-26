@@ -29,14 +29,33 @@
     <div class="carousel-item active dark-overlay">
       <img class="d-block w-100" src="img/movie-thumb-7.jpg" alt="First slide">
       <div class="carousel-content">
-        <p><h1>The <br> Irishman </h1> </p>
+        <p>The <br> Irishman </p>
+        <button style="height:80px;width:150px" class="button" type="button">
+            <h4>Coming soon</h4> 
+        </button>
       </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="img/movie-thumb-5.jpg" alt="Second slide">
+      <div class="carousel-content">
+        <p>VICE</p>
+        <a href="#">
+            <button button style="height:80px;width:150px" class="button" type="button">
+            <h4>Details</h4> 
+            </button>
+        </a>     
+      </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="img/movie-thumb-3.jpg" alt="Third slide">
+      <div class="carousel-content">
+        <p>The<br>Lego Movie</p>
+        <a href="#">
+            <button button style="height:80px;width:150px" class="button" type="button">
+            <h4>Details</h4> 
+            </button>
+        </a>
+      </div>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
