@@ -3,7 +3,7 @@ include "connection.php";
 session_start();
 
 // variables
-$movieid = $_POST['movie_id'];
+$seat_table = $_POST['seat_table'];
 
 $fname = $_POST['fName'];
 $lname = $_POST['lName'];
@@ -29,15 +29,18 @@ if ((!$_POST['submit'])) {
 //   {
 //     echo("You didn't select any buildings.");
 //   } 
-   $i= explode(',',$movieid[0])     ;
+$i= explode(',',$seat_table)     ;
+
    $N = count($i);
-   
 if (isset($_POST['submit'])) {
+    echo '<h3>' . $N. '</h3>';
     for($x=0; $x < $N; $x++)
  {
-$qry = "INSERT INTO bookingtable(`movieID`, `bookingTheatre`, `bookingType`, `bookingDate`, `bookingTime`, `bookingFName`, `bookingLName`, `bookingPNumber`, `bookingEmail`,`amount`, `ORDERID`,`seat_id`)VALUES ('$movieid','$theatre','$type','$date','$time','$fname','$lname','$mobile','$email','Not Paid','$order','$x')";
+$qry = "INSERT INTO bookingtable(`movieID`, `bookingTheatre`, `bookingType`, `bookingDate`, `bookingTime`, `bookingFName`, `bookingLName`, `bookingPNumber`, `bookingEmail`,`amount`, `ORDERID`,`seat_id`)VALUES ('$movieid','$theatre','$type','$date','$time','$fname','$lname','$mobile','$email','Not Paid','$order','$i[$x]')";
+$result = mysqli_query($con, $qry);
+
 }
- $result = mysqli_query($con, $qry);
+
 }
 
 ?>

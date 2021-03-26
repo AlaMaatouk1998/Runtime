@@ -18,70 +18,69 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style>
+.header {
+  padding: 10px 16px;
+  background: transparent;
+  color: #f1f1f1;
+  position: absolute;
+  z-index: 99;
+  width: -webkit-fill-available;
+  font-weight: 700;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+</style>    
 </head>
 
-<body><!--
-        <div class="header_menu">
+<body>
+        <div class="header" id="myHeader">
             <div class="row">
                 <div class="col-md-3">
                     <div class="navbar-brand">
-                        <a href="index.php"><img src="img/majes.png" style="max-width: 215px;"></a>
+                        <a href="index.php"><img src="img/majes.png" style="max-width: 150px;"></a>
                     </div>
                 </div>
                 <div class="col-md-9">
-                    <div class="navbar-container">          
+                    <div class="navbar-container" style="width: max-content;padding-top: 10px;">          
                         <nav class="navbar">
                             <ul class="navbar-menu">
                                 <li><a href="index.php">Home</a></li>
-                                <li><a href="schedule.php">Schedule</a></li>
+                                <li><a href="schedule.php">Schedule</a></li><!--
                                  <li><a href="TxnStatus.php" target="_blank">Status</a></li> 
-                                <li><a href="#">Team</a></li>           
+                                <li><a href="#">Team</a></li>  -->         
                                 <li><a href="contact-us.php">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
                 </div>    
             </div>
-        </div>  -->
-        <header>
-<!--<div class="bg-warning py-2">
-	<div class="container">
-		Some top header info
-	</div>
-</div>-->
-<nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <div class="container">
-    <div class="navbar-brand">
-        <a href="index.php"><img src="img/majes.png" style="max-width: 150px;"></a>
-    </div>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="main_nav">	
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item"><a class="nav-link" href="index.php"> Home</a></li>
-      <li class="nav-item"><a class="nav-link" href="schedule.php"> Schedule</a></li>
-      <li class="nav-item"><a class="nav-link" href="contact-us.php"> Contact</a></li>
-    </ul>
-  </div> <!-- navbar-collapse.// -->
-</div> <!-- container.// -->
-</nav>
-</header>
+        </div>
 <script>
-///////////////// fixed menu on scroll for desktop
-if ($(window).width() > 992) {
-  $(window).scroll(function(){  
-     if ($(this).scrollTop() > 40) {
-        $('#navbar_top').addClass("fixed-top");
-        // add padding top to show content behind navbar
-        $('body').css('padding-top', $('.navbar').outerHeight() + 'px');
-      }else{
-        $('#navbar_top').removeClass("fixed-top");
-         // remove padding top from body
-        $('body').css('padding-top', '0');
-      }   
-  });
-} // end if  
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
 </script>
 </body>
 </html>

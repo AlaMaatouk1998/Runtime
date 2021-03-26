@@ -30,6 +30,7 @@
   background-color: transparent !important;
   position: absolute;
   z-index: 999;
+  overflow: hidden;
 }
 .header_menu{
     background-color: transparent;
