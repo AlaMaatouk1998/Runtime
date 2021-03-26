@@ -69,6 +69,9 @@ $row = mysqli_fetch_array($movieImageById);
 //   } 
    $i= explode(',',$aDoor[0])     ;
    $N = count($i);
+   $str=implode(",", $i);
+
+   
    echo ($N*10) ?></td>
                     </tr>
                     
@@ -119,7 +122,7 @@ $row = mysqli_fetch_array($movieImageById);
                     <input placeholder="✆  Phone Number" type="text" name="pNumber" required="">    
                     <input placeholder="⌧  email" type="email" name="email" required="">
                     <input type="hidden" name="movie_id" value="<?php echo $id; ?>">
-                    <input type="hidden" name="seat_table[]" value="<?php   echo $N ?>">
+                    <input type="hidden" name="seat_table" value="<?php   echo $str ?>">
 
 
                     <button href="../index.php" type="submit" value="save" name="submit" class="form-btn">Get Your tocket</button>
