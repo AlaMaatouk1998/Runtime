@@ -19,7 +19,19 @@ body{
   overflow: hidden; 
   border-radius: 30px;       
 }
-
+.button_hcarou {     
+    background-color: #ea5b16;
+    background-repeat: no-repeat;
+    border: 0px solid #ea5b16;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 90px;
+    outline: none !important;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;  
+}
 
 
 * {
@@ -36,7 +48,7 @@ body{
   position: absolute;
   font-family: poppins;
   font-weight: bold;
-  bottom: 50%;
+  bottom: 25%;
   left: 17%;
   z-index: 20;
   color: white;

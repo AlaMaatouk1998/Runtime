@@ -52,7 +52,7 @@
 <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container">
     <div class="navbar-brand">
-        <a href="index.php"><img src="img/majes.png" style="max-width: 215px;"></a>
+        <a href="index.php"><img src="img/majes.png" style="max-width: 150px;"></a>
     </div>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>

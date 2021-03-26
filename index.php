@@ -30,7 +30,7 @@
       <img class="d-block w-100" src="img/movie-thumb-7.jpg" alt="First slide">
       <div class="carousel-content">
         <p>The <br> Irishman </p>
-        <button style="height:80px;width:150px" class="button" type="button">
+        <button class="button_hcarou" type="button">
             <h4>Coming soon</h4> 
         </button>
       </div>
@@ -40,7 +40,7 @@
       <div class="carousel-content">
         <p>VICE</p>
         <a href="#">
-            <button button style="height:80px;width:150px" class="button" type="button">
+            <button class="button_hcarou" type="button">
             <h4>Details</h4> 
             </button>
         </a>     
@@ -51,7 +51,7 @@
       <div class="carousel-content">
         <p>The<br>Lego Movie</p>
         <a href="#">
-            <button button style="height:80px;width:150px" class="button" type="button">
+            <button class="button_hcarou" type="button">
             <h4>Details</h4> 
             </button>
         </a>
