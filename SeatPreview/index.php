@@ -657,12 +657,12 @@ if ((!$_GET['id'])) {
                 <li class="legenditem legenditem--reserved">Reserved</li>
                 <li class="legenditem legenditem--selected">Selected</li>
             </ul>
-            <a href="index1.html" class="action action--buy">Buy tickets</a>
+           <!-- <a href="index1.html" class="action action--buy">Buy tickets</a>-->
             <form action="../booking.php" method="post">
 <input type="text" id="lname" name="lname[]" value="0"><br><br>
 <input type="hidden" name="id" value="<?php echo $id; ?>">
 
-  <input type="submit" value="Submit">
+  <input type="submit" value="Buy tickets" class="action action--buy">
 </form>
         </div><!-- /plan -->
         <button class="action action--lookaround action--disabled" arial-label="Unlook View"></button>
