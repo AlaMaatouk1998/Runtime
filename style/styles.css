@@ -58,8 +58,12 @@ body{
   font-family: "poppins";
   text-decoration: none;
   color: white;
+<<<<<<< HEAD
 
  /* border-radius: 30px;*/
+=======
+  border-radius: 30px;
+>>>>>>> 348388840e170f54ef86a8392d81d15e22044989
 }
 .admin-login-info {
   display: flex;

@@ -24,9 +24,9 @@ span.col-md-4.icon {
                                 <div class="info"><i class="icon_mail_alt"></i>contact@lemajestic.tn</div>
                             </div>
                             <div class="row" style="padding-left: 75px;">
-                                    <span class="col-md-4 icon"><i class="fab fa-lg fa-facebook-square"></i></span>
-                                    <span class="col-md-4 icon"><i class="fab fa-lg fa-twitter-square"></i></span>
-                                    <span class="col-md-4 icon"><i class="fab fa-lg fa-instagram"></i></span>
+                                    <span class="col-md-4 icon"><i class="fab fa-lg fa-facebook-square" style="color: #233657;"></i></span>
+                                    <span class="col-md-4 icon"><i class="fab fa-lg fa-twitter-square" style="color: #233657;"></i></span>
+                                    <span class="col-md-4 icon"><i class="fab fa-lg fa-instagram" style="color: #233657;"></i></span>
                             </div>
                         </div>
                     </div>    
@@ -37,21 +37,21 @@ span.col-md-4.icon {
                     <h2><i class="fas fa-user-alt"></i> Social Media</h2>
                         <div class="footer-section-inner-container">
                             <span><i class="fab fa-lg fa-facebook-square"></i></span>
-                            <span><i class="fab fa-lg fa-twitter-square"></i></span>
+                            <span><i class="fab fa-lg fa-twitter-square" ></i></span>
                             <span><i class="fab fa-lg fa-instagram"></i></span>
                         </div>
                 </div>
             </div>    
             <div class="col-md-4">
             </div>
-                <div class="footer-section  footer-section3">
-                    <a>Advertising</a>
-                    <a>Privacy Policy</a>
-                    <a href="contact-us.php">Contact</a>
+            <div class="row" style="margin-left: 0px;background-color: #233657;margin-right: 0px;height: 0px;width: -webkit-fill-available;">
+                <div class="col-md-8">
+                        <p class="footer_text-f">Copyright © 2021 LE MAJESTIC Developed By<a target="_blank" href="#">RunTime Terror</a></p>
                 </div>
-
-                <footer class="bg-dark d-flex justify-content-center">
-                    <h2 class="text-white" href="#">COVID-19 LIVE STATS</h2>
-                    <h2 style="color:#fff;">Developed By RunTime Terror <a target="_blank" class="navbar-brand line text-white" href="#"></a></h2>
-                </footer>
+                <div class="col-md-3" style="float: left;padding-left: 5%;">
+                    <a class="footer_text-f" href="#">Advertising</a>
+                    <a class="footer_text-f" href="#">Privacy Policy</a>
+                    <a class="footer_text-f" href="contact-us.php">Contact</a>
+                </div>    
+            </div>    
         </div>        
