@@ -18,6 +18,13 @@ $row = mysqli_fetch_array($movieImageById);
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <title>Book <?php echo $row['movieTitle']; ?> Now</title>
     <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css%22%3E
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js%22%3E</script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js%22%3E</script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js%22%3E</script>
     <script src="_.js "></script>
 </head>
 
@@ -31,78 +38,92 @@ $row = mysqli_fetch_array($movieImageById);
         </div>
         
         <div class="booking-panel-section booking-panel-section3">
-            <div class="movie-box">
-                <img src="img/movie-poster-5.jpg" alt="">            </div>
+        <div class="movie-box">
+                <?php
+                echo '<img src="' . $row['movieImg'] . '" alt="">';
+                ?>
+            </div>
         </div>
-        <div class="booking-panel-section booking-panel-section4">
-            <div class="title" style="color:white">VICE</div>
-            <div class="movie-information">
+        <div class="row">
+<div class="booking-panel-section booking-panel-section4">
+<div class="title" style="color:white">VICE</div>
+<div class="col-6">
+<div class="movie-information">
                 <table>
-                    
-<tbody><tr>
+                    <tr>
                         <td>GENGRE</td>
-                        <td>Biography, Comedy, Drama</td>
+                        <td><?php echo $row['movieGenre']; ?></td>
                     </tr>
                     <tr>
                         <td>DURATION</td>
-                        <td>132</td>
+                        <td><?php echo $row['movieDuration']; ?></td>
                     </tr>
                     <tr>
                         <td>RELEASE DATE</td>
-                        <td>2018-12-25</td>
+                        <td><?php echo $row['movieRelDate']; ?></td>
                     </tr>
                     <tr>
                         <td>DIRECTOR</td>
-                        <td>Adam McKay</td>
+                        <td><?php echo $row['movieDirector']; ?></td>
                     </tr>
                     <tr>
                         <td>ACTORS</td>
-                        <td>Christian Bale, Amy Adams, Steve Carell</td>
+                        <td><?php echo $row['movieActors']; ?></td>
                     </tr>
                     <tr>
                         <td>PRICE</td>
-                        <td>10</td>
-                    </tr>
-                    
+                        <td><?php $aDoor = $_POST['lname'];
+//   if(empty($aDoor)) 
+//   {
+//     echo("You didn't select any buildings.");
+//   } 
+   $i= explode(',',$aDoor[0])     ;
+   $N = count($i);
+   $str=implode(",", $i);
+
+   
+   echo ($N * 10) ?> 
                 </tbody></table>
 
             </div>
+ </div>  
+<div class="col-6">
             <div class="booking-form-container">
                 <form action="verify.php" method="POST">
 
 
                     <select name="theatre" required="">
-                        <option value="" disabled="" selected="">THEATRE</option>
-                        <option value="main-hall">Main Hall</option>
-                        <option value="vip-hall">VIP Hall</option>
-                        <option value="private-hall">Private Hall</option>
+                        <option style="color:gray" value="" disabled="" selected="">THEATRE</option>
+                        <option style="color:gray"value="main-hall">Main Hall</option>
+                        <option style="color:gray"value="vip-hall">VIP Hall</option>
+                        <option style="color:gray"value="private-hall">Private Hall</option>
                     </select>
 
                     <select name="type" required="">
-                        <option value="" disabled="" selected="">TYPE</option>
-                        <option value="3d">3D</option>
-                        <option value="2d">2D</option>
-                        <option value="imax">IMAX</option>
-                        <option value="7d">7D</option>
+                        <option style="color:gray"value="" disabled="" selected="">TYPE</option>
+                        <option style="color:gray"value="3d">3D</option>
+                        <option style="color:gray"value="2d">2D</option>
+                        <option style="color:gray"value="imax">IMAX</option>
+                        <option style="color:gray"value="7d">7D</option>
                     </select>
 
                     <select name="date" required="">
-                        <option value="" disabled="" selected="">DATE</option>
-                        <option value="12-3">March 12,2019</option>
-                        <option value="13-3">March 13,2019</option>
-                        <option value="14-3">March 14,2019</option>
-                        <option value="15-3">March 15,2019</option>
-                        <option value="16-3">March 16,2019</option>
+                        <option style="color:gray" value="" disabled="" selected="">DATE</option>
+                        <option style="color:gray" value="12-3">March 12,2019</option>
+                        <option style="color:gray" value="13-3">March 13,2019</option>
+                        <option style="color:gray" value="14-3">March 14,2019</option>
+                        <option style="color:gray" value="15-3">March 15,2019</option>
+                        <option style="color:gray" value="16-3">March 16,2019</option>
                     </select>
 
                     <select name="hour" required="">
-                        <option value="" disabled="" selected="">TIME</option>
-                        <option value="09-00">09:00 AM</option>
-                        <option value="12-00">12:00 AM</option>
-                        <option value="15-00">03:00 PM</option>
-                        <option value="18-00">06:00 PM</option>
-                        <option value="21-00">09:00 PM</option>
-                        <option value="24-00">12:00 PM</option>
+                        <option style="color:gray" value="" disabled="" selected="">TIME</option>
+                        <option style="color:gray" value="09-00">09:00 AM</option>
+                        <option style="color:gray" value="12-00">12:00 AM</option>
+                        <option style="color:gray" value="15-00">03:00 PM</option>
+                        <option style="color:gray" value="18-00">06:00 PM</option>
+                        <option style="color:gray" value="21-00">09:00 PM</option>
+                        <option style="color:gray" value="24-00">12:00 PM</option>
                     </select>
 
                     <input placeholder=" 웃  First Name" type="text" name="fName" required="">
@@ -121,8 +142,9 @@ $row = mysqli_fetch_array($movieImageById);
 
                
             </div>
+</div>
 
-
+</div>
       
 </div>
     </div>
