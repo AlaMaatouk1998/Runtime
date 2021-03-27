@@ -704,7 +704,6 @@ footer {
   display: grid;
   grid-gap: 25px;
   grid-template-areas: "contact-form contact-form contact-info";
-  margin: 30px 15%;
   padding: 100px;
 }
 
