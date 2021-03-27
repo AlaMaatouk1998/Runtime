@@ -1300,36 +1300,3 @@ else   {
 
 
 
-
-
-
-
-
-
-=======
->>>>>>> 355443cbc91d48edb38aa49c1cf3f1db3b3f73d2
-		function CovidFunction() {
-  		 var element = document.getElementsByClassName("covid");
-  		 for(var i=0; i<element.length; i++) {
-  		 element[i].classList.add("row__seat--reserved");
-  		 element[i].classList.add("row__seat");
-  		 element[i].setAttribute('data-tooltip','Safety');
-  		 element[i].setAttribute('onclick','');
-  		 element[i].style.backgroundColor = "#ffc100";
-  		}
-  		}
-			</script>
-		<script>
-
-var ids = [];
-function myFunction(x) {
-  ids.push(x);
-  document.getElementById("lname").value = ids;
-
-}
-</script>
-	</body>
-</html>
-
-
-/html>

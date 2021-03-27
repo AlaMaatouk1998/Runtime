@@ -41,10 +41,7 @@
   max-height: 95px;
   background-color: rgba(0,0,0,0.5)!important;
   transition: background-color 1s ease !important;
-<<<<<<< HEAD
-=======
   border-radius: 0px !important;
->>>>>>> 355443cbc91d48edb38aa49c1cf3f1db3b3f73d2
 }
 
 .sticky + .content {
@@ -58,11 +55,7 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="navbar-brand">
-<<<<<<< HEAD
-                        <a href="index.php"><img src="img/majes.png" style="max-width: 150px;padding: 10px;"></a>
-=======
                         <a href="index.php"><img src="img/majes.png" style="max-width: 150px;padding: 10px;border-radius: 0px;"></a>
->>>>>>> 355443cbc91d48edb38aa49c1cf3f1db3b3f73d2
                     </div>
                 </div>
                 <div class="col-md-9">

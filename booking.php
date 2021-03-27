@@ -82,15 +82,10 @@ $row = mysqli_fetch_array($movieImageById);
    $str=implode(",", $i);
 
    
-<<<<<<< HEAD
    echo ($N * 10) ?></td>
                     </tr>
                     
                 </table>
-=======
-   echo ($N * 10) ?> 
-                </tbody></table>
->>>>>>> 355443cbc91d48edb38aa49c1cf3f1db3b3f73d2
 
             </div>
  </div>  
@@ -160,10 +155,4 @@ $row = mysqli_fetch_array($movieImageById);
     <script src="scripts/jquery-3.3.1.min.js "></script>
     <script src="scripts/script.js "></script>
 
-<<<<<<< HEAD
-=======
-
-
-</body>
->>>>>>> 355443cbc91d48edb38aa49c1cf3f1db3b3f73d2
 </html>

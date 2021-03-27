@@ -19,19 +19,8 @@ span.col-md-4.icon {
                         <div class="ova_map1">
                             <div class="content">
                                 <img src="https://lemajestic.tn/wp-content/uploads/2017/10/logo-majestic-footer.png" alt="logo">
-<<<<<<< HEAD
-                                <div class="info"><i class="icon_building_alt"></i>Rue de Sfax, Bizerte</div>
-                                <div class="info"><i class="icon_mobile"></i>+216 98 782 630</div>
-                                <div class="info"><i class="icon_mail_alt"></i>contact@lemajestic.tn</div>
-                            </div>
-                            <div class="row" style="padding-left: 75px;">
-                                    <span class="col-md-4 icon"><i class="fab fa-lg fa-facebook-square" style="color: #233657;"></i></span>
-                                    <span class="col-md-4 icon"><i class="fab fa-lg fa-twitter-square" style="color: #233657;"></i></span>
-                                    <span class="col-md-4 icon"><i class="fab fa-lg fa-instagram" style="color: #233657;"></i></span>
-=======
                                 <hr>
                                 <p>lorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit,  do.    minim , quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  sint occaecat non proident</P>
->>>>>>> 355443cbc91d48edb38aa49c1cf3f1db3b3f73d2
                             </div>
                         </div>
                     </div>    
@@ -41,15 +30,9 @@ span.col-md-4.icon {
                 <div class="footer-section footer-section2">
                     <h2><i class="fas fa-user-alt"></i> Social Media</h2>
                         <div class="footer-section-inner-container">
-<<<<<<< HEAD
-                            <span><i class="fab fa-lg fa-facebook-square"></i></span>
-                            <span><i class="fab fa-lg fa-twitter-square" ></i></span>
-                            <span><i class="fab fa-lg fa-instagram"></i></span>
-=======
                             <span><i class="fab fa-lg fa-facebook-square"></i><p>Le majestic</p></span>
                             <span><i class="fab fa-lg fa-twitter-square" ></i><p>@le.majestic</p></span>
                             <span><i class="fab fa-lg fa-instagram"></i><p>le_majestic</p></span>
->>>>>>> 355443cbc91d48edb38aa49c1cf3f1db3b3f73d2
                         </div>
                 </div>
             </div>    
