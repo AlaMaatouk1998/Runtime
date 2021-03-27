@@ -20,13 +20,14 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <style>
 .header {
-  padding: 10px 16px;
+  padding-left: 15px;
   background: transparent;
   color: #f1f1f1;
   position: absolute;
   z-index: 99;
   width: -webkit-fill-available;
   font-weight: 700;
+  overflow: hidden;
 }
 
 .content {
@@ -37,6 +38,9 @@
   position: fixed;
   top: 0;
   width: 100%;
+  max-height: 95px;
+  background-color: rgba(0,0,0,0.5)!important;
+  transition: background-color 1s ease !important;
 }
 
 .sticky + .content {
@@ -50,11 +54,11 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="navbar-brand">
-                        <a href="index.php"><img src="img/majes.png" style="max-width: 150px;"></a>
+                        <a href="index.php"><img src="img/majes.png" style="max-width: 150px;padding: 10px;"></a>
                     </div>
                 </div>
                 <div class="col-md-9">
-                    <div class="navbar-container" style="width: max-content;padding-top: 10px;">          
+                    <div class="navbar-container" style="width: max-content;">          
                         <nav class="navbar">
                             <ul class="navbar-menu">
                                 <li><a href="index.php">Home</a></li>
