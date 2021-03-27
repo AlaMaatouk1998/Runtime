@@ -10,6 +10,19 @@ body{
 .h3, h3{
   font-size: 2rem !important;
 }
+.h5, h5{
+  font-size: 2rem !important;
+  color: #33338C;
+}
+.info {
+  margin-bottom: 20px;
+}
+.icon_pin {
+  color: red;
+}
+.icon_mobile{
+  color: blue;
+}
 
 .button {     
   background-color: Transparent;
@@ -673,7 +686,8 @@ footer {
 
 #gmap_canvas {
   width: 100%;
-  height: 400px;
+  height: 800px;
+  width: 420px;
 }
 
 .contact-us-container {
@@ -681,6 +695,7 @@ footer {
   grid-gap: 25px;
   grid-template-areas: "contact-form contact-form contact-info";
   margin: 30px 15%;
+  padding: 100px;
 }
 
 .contact-us-section {
