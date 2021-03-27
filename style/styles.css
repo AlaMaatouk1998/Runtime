@@ -427,10 +427,8 @@ footer {
   display: grid;
   grid-gap: 25px;
   grid-template-columns: 1fr 3fr;
-  background-color: #fff;
-  padding: 40px;
-  box-shadow: 1px 0px 23px 3px rgba(0, 0, 0, 0.45);
-  -webkit-box-shadow: 1px 0px 23px 3px rgba(0, 0, 0, 0.45);
+  background-color: transparent;
+  padding: 0px;
   -moz-box-shadow: 1px 0px 23px 3px rgba(0, 0, 0, 0.45);
   transition: all 0.7s ease;
   width: 90%;
