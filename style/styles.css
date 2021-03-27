@@ -23,7 +23,11 @@ body{
 .icon_mobile{
   color: blue;
 }
-
+.feather {
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+}
 .button {     
   background-color: Transparent;
   background-repeat:no-repeat;
@@ -54,9 +58,13 @@ body{
   font-family: "poppins";
   text-decoration: none;
   color: white;
+
  /* border-radius: 30px;*/
 }
-
+.admin-login-info {
+  display: flex;
+}
+td{color:#000;}
 .carousel-content {
   position: absolute;
   font-family: poppins;
@@ -749,7 +757,97 @@ footer {
   padding: 10px 0;
   margin-bottom: 10px;
 }
+@media (max-width: 767.98px) {
+  .sidebar {
+    top: 5rem;
+  }
+}
+img.float-left {
+  width: 90px;
+  
+}
+  .col-sm {
+    display: table-cell;
+    
+}
+.desc  h3 {
+  text-align: center;
 
+}
+.desc.col-sm {
+  padding-left: 30px;
+}
+.desc  h3 {
+  color: #33338c;
+}
+.desc  h1 {
+  color: #F19A3E;
+}
+.col-sm.border {
+  background-color: white;
+  box-shadow: 1px 1px 7px 0px rgb(0 0 0 / 28%);
+  display: inline-table;
+}
+table#dataTable{
+  background-color: white;
+}
+
+.admin-section-header {
+  color: #fff;
+  width: 100%;
+  grid-template-columns: 1fr 5fr;
+}
+.image{
+  padding: 20px;
+  background-color: #233657;
+  border-radius: 90px;
+}
+.border {
+  border: 1px solid #dee2e6!important;
+  border-radius: 25px;
+  padding: 15px;
+  margin: 30px;
+}
+.sidebar-heading {
+  font-size: .75rem;
+  text-transform: uppercase;
+}
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+  color: inherit;
+}
+.sidebar .nav-link.active {
+  color: #007bff;
+}
+.sidebar .nav-link .feather {
+  margin-right: 4px;
+  color: #727272;
+}
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #333;
+}
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  /* rtl:raw:
+  right: 0;
+  */
+  bottom: 0;
+  /* rtl:remove */
+  left: 0;
+  z-index: 100; /* Behind the navbar */
+  padding: 48px 0 0; /* Height of navbar */
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
 /* Admin Panel Styling */
 
 .admin-dropdown {
@@ -763,24 +861,10 @@ footer {
   margin: 0;
 }
 
-.admin-section-header {
-  color: #fff;
-  width: 100%;
-  background-color: #3a3a3a;
-  display: grid;
-  grid-template-columns: 1fr 5fr;
-}
 
-.admin-user-avatar {
-  width: 65px;
+.admin-login-info a{
+  color:#33338c
 }
-
-.admin-login-info {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-
 .admin-login-info i {
   margin: 0 10px;
   cursor: pointer;
@@ -855,29 +939,24 @@ footer {
 }
 
 .admin-section1 {
-  background-color: #3a3a3a;
-  height: 100vh;
+  background-color: #33338c;
+}
+
+
+.admin-section1 ul li:hover {
+  background-color: #F19A3E;
+  color: #fff;
+  border-left: #fff 3px solid;
 }
 
 .admin-section1 ul li {
   width: 100%;
   padding: 20px 10px;
-  background-color: #3a3a3a;
   color: #fff;
+  background: rgb(0,0,0,0);
   transition: all 0.3s ease;
   position: relative;
   cursor: pointer;
-}
-
-.admin-section1 ul li:hover {
-  background-color: #6e5a11;
-  color: #fff;
-  border-left: #fff 3px solid;
-}
-
-.admin-section1 ul ul {
-  background-color: #4e4e4e;
-  margin-bottom: 1px;
 }
 
 .admin-section1 ul ul li {
@@ -901,26 +980,135 @@ footer {
   padding: 0 30px;
 }
 
-.admin-section-panel {
+#div_login {
+  width: 60%;
+  background: #233657;
+  border-radius: 25px;
+  box-shadow: 0px 2px 6px 3px grey;
+  margin: 0 auto;
+}
+#div_login h1{
+  text-align: center;
+  font-family: poppins;
+  color: white;
+}
+.textbox{
+    background: rgb(0,0,0,0);
+    border-bottom: 2px solid #fff;
+    margin-bottom: 3%;
+    border-top: 0px;
+    border-right: 0;
+    border-left: 0;
+    padding-top: 5px;
+
+}
+.field{
+  padding-left: 42%;
+
+}
+.desc.col-sm {
+  padding-left: 30px;
+  display: inline-block;
+}
+.admin-section-panel2 form input {
+  border-radius: 30px;
+  border: 1px solid #6e6e6e;
+  padding: 10px;
+  width: 23%;
+  height: 42px;
+  margin: 8px 5px;
+}
+#but_submit {
+  border-radius: 20px;
+  padding-right: 3%;
+  padding-left: 3%;
+  padding-top: 1%;
+  margin-top: 5%;
+  padding-bottom: 1%;
+  background: #F19A3E;
+  color: white;
+  border: 3px solid #f19a3e;
+}
+input.btn.btn-outline-warning {
+  background: white;
+  border-radius: 25px;
+  color: #F19A3E;
+  border: 1px solid #F19A3E;
+  padding: 12px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.admin-section1 ul li {
   width: 100%;
+  padding: 20px 10px;
+  background-color: #3a3a3a;
+  color: #fff;
+  transition: all 0.3s ease;
+  position: relative;
+  cursor: pointer;
+}
+.table-title h2{
+  color: #33338c;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #F19A3E;
+}
+button.btn {
+  color: #F19A3E;
+  background: #fff;
+}
+button.btn:hover {
+color: #fff;
+background: #F19A3E;
+}
+button.form-btn {
+  border-radius: 25px;
+  border: none;
+  padding: 10px;
+  margin: 10px 32px;
+  width: 30%;
+  text-align: center;
+  background-color: #33338c;
+  cursor: pointer;
+  height: 42px;
+  color: #F19A3E;
+}
+.table-responsive {
+  display: block;
+  overflow: hidden;
+  box-shadow: 1px 1px 9px 0px rgb(0 0 0 / 40%);
+  border-radius: 25px;
+  padding: 12px;
+  margin: 12px;
+}
+.btn {
+  cursor: pointer;
+  border: 1px solid #F19A3E;
+  border-radius: 25px;
+  padding: 15px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-right: 6px;
+}
+.admin-section-panel {
   vertical-align: middle;
   background-color: #fff;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
-  border-radius: 6px;
-  -webkit-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.4);
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 0px 9px 0px rgb(0 0 0 / 40%);
   -moz-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.4);
-  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.4);
-  padding: 20px;
-  margin: 20px 0;
+  box-shadow: 0px 0px 9px 0px rgb(0 0 0 / 40%);
+  padding: 20px 20px 20px 20px;
+  margin: 0px 94px 94px 94px;
 }
 
 .admin-panel-section-header {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding-bottom: 20px;
-  border-bottom: #c7c7c7 1px solid;
+  padding-bottom: 0px;
+  border-bottom: #F19A3E 1px solid;
+  margin-bottom: 15px;
 }
 
 .admin-panel-section-header > h2 {
@@ -1053,15 +1241,18 @@ footer {
   width: 59%;
   padding: 0;
 }
-
+.admin-section-panel.admin-section-panel2 {
+  margin-top: 20px;
+}
+.btn btn-danger a {
+  color: #f19a3e;
+}
 .admin-section-panel2 form button {
-  border-radius: 4px;
   border: none;
   padding: 10px;
   margin: 10px 32px;
   width: 49%;
   text-align: center;
-  background-color: #a3861e;
   color: #fff;
   transition: all 0.7s ease;
   cursor: pointer;

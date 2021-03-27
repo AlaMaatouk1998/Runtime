@@ -4,52 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+    <link  rel="stylesheet" href="./admin.css">
+    <link href="C:\xampp\htdocs\movie\bootstrap-5.0.0-beta3-dist\bootstrap-5.0.0-beta3-dist\css\bootstrap.min.css" rel="stylesheet">
     <style>
-        /* Container */
-        .container {
-            width: 40%;
-            margin: 0 auto;
+        *{
+            font-family:poppins;
         }
+        </style>
 
-        /* Login */
-        #div_login {
-            border: 1px solid gray;
-            border-radius: 3px;
-            width: 470px;
-            height: 270px;
-            box-shadow: 0px 2px 2px 0px gray;
-            margin: 0 auto;
-        }
-
-        #div_login h1 {
-            margin-top: 0px;
-            font-weight: normal;
-            padding: 10px;
-            background-color: cornflowerblue;
-            color: white;
-            font-family: sans-serif;
-        }
-
-        #div_login div {
-            clear: both;
-            margin-top: 10px;
-            padding: 5px;
-        }
-
-        #div_login .textbox {
-            width: 96%;
-            padding: 7px;
-        }
-
-        #div_login input[type=submit] {
-            padding: 7px;
-            width: 100px;
-            background-color: lightseagreen;
-            border: 0px;
-            color: white;
-        }
-    </style>
 </head>
 
 <body>
@@ -57,13 +22,13 @@
         <form method="post" action="">
             <div id="div_login">
                 <h1>Login</h1>
-                <div>
+                <div class="field">
                     <input type="text" class="textbox" id="txt_uname" name="txt_uname" placeholder="Username" />
                 </div>
-                <div>
+                <div class="field">
                     <input type="password" class="textbox" id="txt_uname" name="txt_pwd" placeholder="Password" />
                 </div>
-                <div>
+                <div style="padding-left: 47%;margin: 0%;padding-bottom: 3%;">
                     <input type="submit" value="Submit" name="but_submit" id="but_submit" />
                 </div>
             </div>
