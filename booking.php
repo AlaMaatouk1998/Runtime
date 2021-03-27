@@ -23,82 +23,71 @@ $row = mysqli_fetch_array($movieImageById);
 
 <body style="background-color:#6e5a11;">
     <div class="booking-panel">
-        <div class="booking-panel-section booking-panel-section1">
+        <div class="booking-panel-section booking-panel-section2" style="
+    width: 300px;">
+            <a href="index.php"><img src="img/majes.png" style="max-width: 150px;"></a>
+</div><div class="booking-panel-section booking-panel-section1">
             <h1>RESERVE YOUR TICKET</h1>
         </div>
-        <div class="booking-panel-section booking-panel-section2" onclick="window.history.go(-1); return false;">
-            <i class="fas fa-2x fa-times"></i>
-        </div>
+        
         <div class="booking-panel-section booking-panel-section3">
             <div class="movie-box">
-                <?php
-                echo '<img src="' . $row['movieImg'] . '" alt="">';
-                ?>
-            </div>
+                <img src="img/movie-poster-5.jpg" alt="">            </div>
         </div>
         <div class="booking-panel-section booking-panel-section4">
-            <div class="title"style="color:white"><?php echo $row['movieTitle']; ?></div>
+            <div class="title" style="color:white">VICE</div>
             <div class="movie-information">
                 <table>
-                    <tr>
+                    
+<tbody><tr>
                         <td>GENGRE</td>
-                        <td><?php echo $row['movieGenre']; ?></td>
+                        <td>Biography, Comedy, Drama</td>
                     </tr>
                     <tr>
                         <td>DURATION</td>
-                        <td><?php echo $row['movieDuration']; ?></td>
+                        <td>132</td>
                     </tr>
                     <tr>
                         <td>RELEASE DATE</td>
-                        <td><?php echo $row['movieRelDate']; ?></td>
+                        <td>2018-12-25</td>
                     </tr>
                     <tr>
                         <td>DIRECTOR</td>
-                        <td><?php echo $row['movieDirector']; ?></td>
+                        <td>Adam McKay</td>
                     </tr>
                     <tr>
                         <td>ACTORS</td>
-                        <td><?php echo $row['movieActors']; ?></td>
+                        <td>Christian Bale, Amy Adams, Steve Carell</td>
                     </tr>
                     <tr>
                         <td>PRICE</td>
-                        <td><?php $aDoor = $_POST['lname'];
-//   if(empty($aDoor)) 
-//   {
-//     echo("You didn't select any buildings.");
-//   } 
-   $i= explode(',',$aDoor[0])     ;
-   $N = count($i);
-   $str=implode(",", $i);
-
-   
-   echo ($N * 10) ?></td>
+                        <td>10</td>
                     </tr>
                     
-                </table>
+                </tbody></table>
 
             </div>
             <div class="booking-form-container">
-                <form action="verify.php" method="POST" >
+                <form action="verify.php" method="POST">
 
 
-                    <select name="theatre" required>
-                        <option value="" disabled selected>THEATRE</option>
+                    <select name="theatre" required="">
+                        <option value="" disabled="" selected="">THEATRE</option>
                         <option value="main-hall">Main Hall</option>
                         <option value="vip-hall">VIP Hall</option>
                         <option value="private-hall">Private Hall</option>
                     </select>
 
-                    <select name="type" required>
-                        <option value="" disabled selected>TYPE</option>
+                    <select name="type" required="">
+                        <option value="" disabled="" selected="">TYPE</option>
                         <option value="3d">3D</option>
                         <option value="2d">2D</option>
                         <option value="imax">IMAX</option>
                         <option value="7d">7D</option>
                     </select>
 
-                    <select name="date" required>
-                        <option value="" disabled selected>DATE</option>
+                    <select name="date" required="">
+                        <option value="" disabled="" selected="">DATE</option>
                         <option value="12-3">March 12,2019</option>
                         <option value="13-3">March 13,2019</option>
                         <option value="14-3">March 14,2019</option>
@@ -106,8 +95,8 @@ $row = mysqli_fetch_array($movieImageById);
                         <option value="16-3">March 16,2019</option>
                     </select>
 
-                    <select name="hour" required>
-                        <option value="" disabled selected>TIME</option>
+                    <select name="hour" required="">
+                        <option value="" disabled="" selected="">TIME</option>
                         <option value="09-00">09:00 AM</option>
                         <option value="12-00">12:00 AM</option>
                         <option value="15-00">03:00 PM</option>
@@ -121,8 +110,8 @@ $row = mysqli_fetch_array($movieImageById);
 
                     <input placeholder="✆  Phone Number" type="text" name="pNumber" required="">    
                     <input placeholder="⌧  email" type="email" name="email" required="">
-                    <input type="hidden" name="movie_id" value="<?php echo $id; ?>">
-                    <input type="hidden" name="seat_table" value="<?php   echo $str ?>">
+                    <input type="hidden" name="movie_id" value="5">
+                    <input type="hidden" name="seat_table" value="Q6">
 
 
                     <button href="../index.php" type="submit" value="save" name="submit" class="form-btn">Get Your tocket</button>
@@ -140,6 +129,8 @@ $row = mysqli_fetch_array($movieImageById);
 
     <script src="scripts/jquery-3.3.1.min.js "></script>
     <script src="scripts/script.js "></script>
-</body>
 
+
+
+</body>
 </html>
