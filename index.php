@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <title>Le Majestic</title>
-    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="icon" type="image/png" href="img/majes.png">
     <script src="_.js "></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
@@ -39,7 +39,7 @@
       <img class="d-block w-100" src="img/movie-thumb-5.jpg" alt="Second slide">
       <div class="carousel-content">
         <p>VICE</p>
-        <a href="#">
+        <a href="SeatPreview/index.php?id=5">
             <button class="button_hcarou" type="button">
             <h4>Details</h4> 
             </button>
@@ -50,7 +50,7 @@
       <img class="d-block w-100" src="img/movie-thumb-3.jpg" alt="Third slide">
       <div class="carousel-content">
         <p>The<br>Lego Movie</p>
-        <a href="#">
+        <a href="SeatPreview/index.php?id=3">
             <button class="button_hcarou" type="button">
             <h4>Details</h4> 
             </button>

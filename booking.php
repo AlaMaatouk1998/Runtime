@@ -18,27 +18,37 @@ $row = mysqli_fetch_array($movieImageById);
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <title>Book <?php echo $row['movieTitle']; ?> Now</title>
     <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css%22%3E
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js%22%3E</script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js%22%3E</script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js%22%3E</script>
     <script src="_.js "></script>
 </head>
 
 <body style="background-color:#6e5a11;">
     <div class="booking-panel">
-        <div class="booking-panel-section booking-panel-section1">
+        <div class="booking-panel-section booking-panel-section2" style="
+    width: 300px;">
+            <a href="index.php"><img src="img/majes.png" style="max-width: 150px;"></a>
+</div><div class="booking-panel-section booking-panel-section1">
             <h1>RESERVE YOUR TICKET</h1>
         </div>
-        <div class="booking-panel-section booking-panel-section2" onclick="window.history.go(-1); return false;">
-            <i class="fas fa-2x fa-times"></i>
-        </div>
+        
         <div class="booking-panel-section booking-panel-section3">
-            <div class="movie-box">
+        <div class="movie-box">
                 <?php
                 echo '<img src="' . $row['movieImg'] . '" alt="">';
                 ?>
             </div>
         </div>
-        <div class="booking-panel-section booking-panel-section4">
-            <div class="title"style="color:white"><?php echo $row['movieTitle']; ?></div>
-            <div class="movie-information">
+        <div class="row">
+<div class="booking-panel-section booking-panel-section4">
+<div class="title" style="color:white">VICE</div>
+<div class="col-6">
+<div class="movie-information">
                 <table>
                     <tr>
                         <td>GENGRE</td>
@@ -72,74 +82,88 @@ $row = mysqli_fetch_array($movieImageById);
    $str=implode(",", $i);
 
    
+<<<<<<< HEAD
    echo ($N * 10) ?></td>
                     </tr>
                     
                 </table>
+=======
+   echo ($N * 10) ?> 
+                </tbody></table>
+>>>>>>> 355443cbc91d48edb38aa49c1cf3f1db3b3f73d2
 
             </div>
+ </div>  
+<div class="col-6">
             <div class="booking-form-container">
-                <form action="verify.php" method="POST" >
+                <form action="verify.php" method="POST">
 
 
-                    <select name="theatre" required>
-                        <option value="" disabled selected>THEATRE</option>
-                        <option value="main-hall">Main Hall</option>
-                        <option value="vip-hall">VIP Hall</option>
-                        <option value="private-hall">Private Hall</option>
+                    <select name="theatre" required="">
+                        <option style="color:gray" value="" disabled="" selected="">THEATRE</option>
+                        <option style="color:gray"value="main-hall">Main Hall</option>
+                        <option style="color:gray"value="vip-hall">VIP Hall</option>
+                        <option style="color:gray"value="private-hall">Private Hall</option>
                     </select>
 
-                    <select name="type" required>
-                        <option value="" disabled selected>TYPE</option>
-                        <option value="3d">3D</option>
-                        <option value="2d">2D</option>
-                        <option value="imax">IMAX</option>
-                        <option value="7d">7D</option>
+                    <select name="type" required="">
+                        <option style="color:gray"value="" disabled="" selected="">TYPE</option>
+                        <option style="color:gray"value="3d">3D</option>
+                        <option style="color:gray"value="2d">2D</option>
+                        <option style="color:gray"value="imax">IMAX</option>
+                        <option style="color:gray"value="7d">7D</option>
                     </select>
 
-                    <select name="date" required>
-                        <option value="" disabled selected>DATE</option>
-                        <option value="12-3">March 12,2019</option>
-                        <option value="13-3">March 13,2019</option>
-                        <option value="14-3">March 14,2019</option>
-                        <option value="15-3">March 15,2019</option>
-                        <option value="16-3">March 16,2019</option>
+                    <select name="date" required="">
+                        <option style="color:gray" value="" disabled="" selected="">DATE</option>
+                        <option style="color:gray" value="12-3">March 12,2019</option>
+                        <option style="color:gray" value="13-3">March 13,2019</option>
+                        <option style="color:gray" value="14-3">March 14,2019</option>
+                        <option style="color:gray" value="15-3">March 15,2019</option>
+                        <option style="color:gray" value="16-3">March 16,2019</option>
                     </select>
 
-                    <select name="hour" required>
-                        <option value="" disabled selected>TIME</option>
-                        <option value="09-00">09:00 AM</option>
-                        <option value="12-00">12:00 AM</option>
-                        <option value="15-00">03:00 PM</option>
-                        <option value="18-00">06:00 PM</option>
-                        <option value="21-00">09:00 PM</option>
-                        <option value="24-00">12:00 PM</option>
+                    <select name="hour" required="">
+                        <option style="color:gray" value="" disabled="" selected="">TIME</option>
+                        <option style="color:gray" value="09-00">09:00 AM</option>
+                        <option style="color:gray" value="12-00">12:00 AM</option>
+                        <option style="color:gray" value="15-00">03:00 PM</option>
+                        <option style="color:gray" value="18-00">06:00 PM</option>
+                        <option style="color:gray" value="21-00">09:00 PM</option>
+                        <option style="color:gray" value="24-00">12:00 PM</option>
                     </select>
 
-                    <input placeholder=" 웃  First Name" type="text" name="fName" required="">
-                    <input placeholder=" 웃  Last Name" type="text" name="lName">
+                    <input style="color:gray" placeholder=" 웃  First Name" type="text" name="fName" required="">
+                    <input style="color:gray" placeholder=" 웃  Last Name" type="text" name="lName">
 
-                    <input placeholder="✆  Phone Number" type="text" name="pNumber" required="">    
-                    <input placeholder="⌧  email" type="email" name="email" required="">
-                    <input type="hidden" name="movie_id" value="<?php echo $id; ?>">
-                    <input type="hidden" name="seat_table" value="<?php   echo $str ?>">
+                    <input style="color:gray" placeholder="✆  Phone Number" type="text" name="pNumber" required="">    
+                    <input style="color:gray" placeholder="⌧  email" type="email" name="email" required="">
+                    <input type="hidden" name="movie_id" value="5">
+                    <input type="hidden" name="seat_table" value="Q6">
 
 
-                    <button href="../index.php" type="submit" value="save" name="submit" class="form-btn">Get Your tocket</button>
+                    <button href="../index.php" type="submit" value="save" name="submit" class="form-btn">Get Your ticket 
+                    </button>
 
 
                 </form>
 
                
             </div>
+</div>
 
-
+</div>
       
 </div>
     </div>
 
     <script src="scripts/jquery-3.3.1.min.js "></script>
     <script src="scripts/script.js "></script>
-</body>
 
+<<<<<<< HEAD
+=======
+
+
+</body>
+>>>>>>> 355443cbc91d48edb38aa49c1cf3f1db3b3f73d2
 </html>

@@ -689,6 +689,7 @@ $id = $_GET['id'];
 					<div  onclick="myFunction('A1')" class="row__seat tooltip" data-tooltip="M18"></div>
 				</div> -->
 				<div class="row">
+<<<<<<< HEAD
 					<div id="n1" onclick="myFunction('N1')"  class="row__seat ali tooltip" data-tooltip="N1" value="N1"></div>
 					<div  id="n2"  onclick="myFunction('N2')" class="row__seat  ali covid tooltip" data-tooltip="N2" value="N2"></div>
 					<div   id="n3" onclick="myFunction('N3')" class="row__seat ali tooltip" data-tooltip="N3" value="N3"></div>
@@ -787,6 +788,106 @@ $id = $_GET['id'];
 					<div  onclick="myFunction('R16')" class="row__seat ali covid  tooltip" data-tooltip="R16"></div>
 					<div  onclick="myFunction('R17')" class="row__seat ali tooltip" data-tooltip="R17"></div>
 					<div onclick="myFunction('R18')" class="row__seat ali tooltip covid" data-tooltip="R18"></div>
+=======
+					<div  onclick="myFunction('N1')"  class="row__seat tooltip" data-tooltip="N1"></div>
+					<div  onclick="myFunction('N2')" class="row__seat  covid tooltip" data-tooltip="N2"></div>
+					<div  onclick="myFunction('N3')" class="row__seat tooltip" data-tooltip="N3"></div>
+					<div  onclick="myFunction('N4')" class="row__seat  covid tooltip" data-tooltip="N4"></div>
+					<div  onclick="myFunction('N5')" class="row__seat tooltip" data-tooltip="N5"></div>
+					<div  onclick="myFunction('N6')" class="row__seat  covid tooltip" data-tooltip="N6"></div>
+					<div  onclick="myFunction('N7')" class="row__seat tooltip" data-tooltip="N7"></div>
+					<div  onclick="myFunction('N8')" class="row__seat  covid tooltip" data-tooltip="N8"></div>
+					<div  onclick="myFunction('N9')" class="row__seat tooltip" data-tooltip="N9"></div>
+					<div  onclick="myFunction('N10')" class="row__seat covid  tooltip" data-tooltip="N10"></div>
+					<div  onclick="myFunction('N11')" class="row__seat tooltip" data-tooltip="N11"></div>
+					<div  onclick="myFunction('N12')" class="row__seat covid  tooltip" data-tooltip="N12"></div>
+					<div  onclick="myFunction('N13')" class="row__seat tooltip" data-tooltip="N13"></div>
+					<div  onclick="myFunction('N14')" class="row__seat covid  tooltip" data-tooltip="N14"></div>
+					<div  onclick="myFunction('N15')" class="row__seat tooltip" data-tooltip="N15"></div>
+					<div  onclick="myFunction('N16')" class="row__seat covid  tooltip" data-tooltip="N16"></div>
+					<div  onclick="myFunction('N17')" class="row__seat tooltip" data-tooltip="N17"></div>
+					<div  onclick="myFunction('N18')" class="row__seat covid  tooltip" data-tooltip="N18"></div>
+				</div>
+				<div class="row">
+					<div  onclick="myFunction('O1')" class="row__seat  covid tooltip" data-tooltip="O1"></div>
+					<div  onclick="myFunction('O2')" class="row__seat tooltip" data-tooltip="O2"></div>
+					<div  onclick="myFunction('O3')" class="row__seat  covid tooltip" data-tooltip="O3"></div>
+					<div  onclick="myFunction('O4')" class="row__seat tooltip" data-tooltip="O4"></div>
+					<div  onclick="myFunction('O5')" class="row__seat  covid tooltip" data-tooltip="O5"></div>
+					<div  onclick="myFunction('O6')" class="row__seat tooltip" data-tooltip="O6"></div>
+					<div  onclick="myFunction('O7')" class="row__seat  covid tooltip" data-tooltip="O7"></div>
+					<div  onclick="myFunction('O8')" class="row__seat tooltip" data-tooltip="O8"></div>
+					<div   onclick="myFunction('O9')" class="row__seat  covid tooltip" data-tooltip="O9"></div>
+					<div  onclick="myFunction('O10')" class="row__seat tooltip" data-tooltip="O10"></div>
+					<div  onclick="myFunction('O11')" class="row__seat covid  tooltip" data-tooltip="O11"></div>
+					<div  onclick="myFunction('O12')" class="row__seat tooltip" data-tooltip="O12"></div>
+					<div  onclick="myFunction('O13')" class="row__seat covid  tooltip" data-tooltip="O13"></div>
+					<div  onclick="myFunction('O14')" class="row__seat tooltip" data-tooltip="O14"></div>
+					<div  onclick="myFunction('O15')" class="row__seat covid  tooltip" data-tooltip="O15"></div>
+					<div  onclick="myFunction('O16')" class="row__seat tooltip" data-tooltip="O16"></div>
+					<div  onclick="myFunction('O17')" class="row__seat covid  tooltip" data-tooltip="O17"></div>
+					<div  onclick="myFunction('O18')" class="row__seat tooltip" data-tooltip="O18"></div>
+				</div>
+				<div class="row">
+					<div  onclick="myFunction('P1')" class="row__seat tooltip" data-tooltip="P1"></div>
+					<div  onclick="myFunction('P2')" class="row__seat  covid tooltip" data-tooltip="P2"></div>
+					<div  onclick="myFunction('P3')" class="row__seat tooltip" data-tooltip="P3"></div>
+					<div  onclick="myFunction('P4')" class="row__seat  covid tooltip" data-tooltip="P4"></div>
+					<div  onclick="myFunction('P5')" class="row__seat tooltip" data-tooltip="P5"></div>
+					<div  onclick="myFunction('P6')" class="row__seat  covid tooltip" data-tooltip="P6"></div>
+					<div  onclick="myFunction('P7')" class="row__seat tooltip" data-tooltip="P7"></div>
+					<div  onclick="myFunction('P8')" class="row__seat  covid tooltip" data-tooltip="P8"></div>
+					<div  onclick="myFunction('P9')" class="row__seat tooltip" data-tooltip="P9"></div>
+					<div  onclick="myFunction('P10')" class="row__seat covid  tooltip" data-tooltip="P10"></div>
+					<div  onclick="myFunction('P11')" class="row__seat tooltip" data-tooltip="P11"></div>
+					<div  onclick="myFunction('P12')" class="row__seat covid  tooltip" data-tooltip="P12"></div>
+					<div  onclick="myFunction('P13')" class="row__seat tooltip" data-tooltip="P13"></div>
+					<div  onclick="myFunction('P14')" class="row__seat covid  tooltip" data-tooltip="P14"></div>
+					<div  onclick="myFunction('P15')" class="row__seat tooltip" data-tooltip="P15"></div>
+					<div  onclick="myFunction('P16')" class="row__seat covid  tooltip" data-tooltip="P16"></div>
+					<div  onclick="myFunction('P17')" class="row__seat tooltip" data-tooltip="P17"></div>
+					<div  onclick="myFunction('P18')" class="row__seat covid  tooltip" data-tooltip="P18"></div>
+				</div>
+				<div class="row">
+					<div  onclick="myFunction('Q1')" class="row__seat  covid tooltip" data-tooltip="Q1"></div>
+					<div  onclick="myFunction('Q2')" class="row__seat tooltip" data-tooltip="Q2"></div>
+					<div  onclick="myFunction('Q3')" class="row__seat  covid tooltip" data-tooltip="Q3"></div>
+					<div  onclick="myFunction('Q4')" class="row__seat tooltip" data-tooltip="Q4"></div>
+					<div  onclick="myFunction('Q5')" class="row__seat  covid tooltip" data-tooltip="Q5"></div>
+					<div  onclick="myFunction('Q6')" class="row__seat tooltip" data-tooltip="Q6"></div>
+					<div  onclick="myFunction('Q7')" class="row__seat  covid tooltip" data-tooltip="Q7"></div>
+					<div  onclick="myFunction('Q8')" class="row__seat tooltip" data-tooltip="Q8"></div>
+					<div  onclick="myFunction('Q9')" class="row__seat  covid tooltip" data-tooltip="Q9"></div>
+					<div  onclick="myFunction('Q10')" class="row__seat tooltip" data-tooltip="Q10"></div>
+					<div  onclick="myFunction('Q11')" class="row__seat covid  tooltip" data-tooltip="Q11"></div>
+					<div  onclick="myFunction('Q12')" class="row__seat tooltip" data-tooltip="Q12"></div>
+					<div  onclick="myFunction('Q13')" class="row__seat covid  tooltip" data-tooltip="Q13"></div>
+					<div  onclick="myFunction('Q14')" class="row__seat tooltip" data-tooltip="Q14"></div>
+					<div  onclick="myFunction('Q15')" class="row__seat covid  tooltip" data-tooltip="Q15"></div>
+					<div  onclick="myFunction('Q16')" class="row__seat tooltip" data-tooltip="Q16"></div>
+					<div  onclick="myFunction('Q17')" class="row__seat covid  tooltip" data-tooltip="Q17"></div>
+					<div  onclick="myFunction('Q18')" class="row__seat tooltip" data-tooltip="Q18"></div>
+				</div>
+				<div class="row">
+					<div  onclick="myFunction('R1')" class="row__seat tooltip" data-tooltip="R1"></div>
+					<div  onclick="myFunction('R2')" class="row__seat  covid tooltip" data-tooltip="R2"></div>
+					<div  onclick="myFunction('R3')" class="row__seat tooltip" data-tooltip="R3"></div>
+					<div  onclick="myFunction('R4')" class="row__seat  covid tooltip" data-tooltip="R4"></div>
+					<div  onclick="myFunction('R5')" class="row__seat tooltip" data-tooltip="R5"></div>
+					<div  onclick="myFunction('R6')" class="row__seat  covid tooltip" data-tooltip="R6"></div>
+					<div  onclick="myFunction('R7')" class="row__seat tooltip" data-tooltip="R7"></div>
+					<div  onclick="myFunction('R8')" class="row__seat  covid tooltip" data-tooltip="R8"></div>
+					<div  onclick="myFunction('R9')" class="row__seat tooltip" data-tooltip="R9"></div>
+					<div  onclick="myFunction('R10')" class="row__seat covid  tooltip" data-tooltip="R10"></div>
+					<div  onclick="myFunction('R11')" class="row__seat tooltip" data-tooltip="R11"></div>
+					<div  onclick="myFunction('R12')" class="row__seat covid  tooltip" data-tooltip="R12"></div>
+					<div  onclick="myFunction('R13')" class="row__seat tooltip" data-tooltip="R13"></div>
+					<div  onclick="myFunction('R14')" class="row__seat covid  tooltip" data-tooltip="R14"></div>
+					<div  onclick="myFunction('R15')" class="row__seat tooltip" data-tooltip="R15"></div>
+					<div  onclick="myFunction('R16')" class="row__seat covid  tooltip" data-tooltip="R16"></div>
+					<div  onclick="myFunction('R17')" class="row__seat tooltip" data-tooltip="R17"></div>
+					<div onclick="myFunction('R18')" class="row__seat tooltip covid" data-tooltip="R18"></div>
+>>>>>>> 355443cbc91d48edb38aa49c1cf3f1db3b3f73d2
 				</div>
 			</div>
 			<!-- /rows -->
@@ -810,6 +911,7 @@ $id = $_GET['id'];
 		<script src="js/classie.js"></script>
 		<script src="js/main.js"></script>
 				<script>
+<<<<<<< HEAD
 
 //   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
   var e = document.getElementById("n1");
@@ -1204,6 +1306,8 @@ else   {
 
 
 
+=======
+>>>>>>> 355443cbc91d48edb38aa49c1cf3f1db3b3f73d2
 		function CovidFunction() {
   		 var element = document.getElementsByClassName("covid");
   		 for(var i=0; i<element.length; i++) {

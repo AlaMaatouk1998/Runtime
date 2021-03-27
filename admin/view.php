@@ -23,26 +23,26 @@ if (isset($_POST['but_logout'])) {
     <title>Admin Dashboard</title>
     <link rel="icon" type="image/png" href="../img/logo.png">
     <link rel="stylesheet" href="../style/styles.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css">
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link  rel="stylesheet" href="./admin.css">
+    <link href="C:\xampp\htdocs\movie\bootstrap-5.0.0-beta3-dist\bootstrap-5.0.0-beta3-dist\css\bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
     
-    <?php include('header.php'); ?>
+
 
     <div class="admin-container">
 
         <?php include('sidebar.php'); ?>
+        <div>
+        <?php include('header.php'); ?>
         <div class="container-lg">
             <div class="table-responsive">
                 <div class="table-wrapper">
                     <div class="table-title">
                         <div class="row">
                             <div class="col-sm-8">
-                                <h2>Booking <b>Details</b></h2>
+                                <h2 > Booking Details</h2>
                             </div>
                             <!--<div class="col-sm-4">
                                 <a href='add.php'><button type="button" class="btn btn-info add-new"><i class="fa fa-plus"></i> Add New</button></a>
@@ -58,7 +58,6 @@ if (isset($_POST['but_logout'])) {
                             <th>Phone Number</th>
                             <th>Email</th>
                             <th>Date</th>
-                            <th>Theatre & Type</th>
                             <th>Time</th>
                             <th>Order ID</th>
                             <th>Amount</th>
@@ -95,11 +94,10 @@ if (isset($_POST['but_logout'])) {
                                     <td><?php echo $mobile; ?></td>
                                     <td><?php echo $email; ?></td>
                                     <td><?php echo $date; ?></td>
-                                    <td><?php echo $theatre . ' ' . $type; ?></td>
                                     <td><?php echo $time; ?></td>
                                     <td><?php echo $ORDERID; ?></td>
                                     <td><?php echo $amount; ?></td>
-                                    <td><button type="submit" type="button" class="btn btn-outline-danger"><?php echo  "<a href='deleteBooking.php?id=" . $row['bookingID'] . "' >delete</a>"; ?></button><button name="update"  type="submit" onclick="" type="button" class="btn btn-outline-warning"><?php echo  "<a href='editBooking.php?id=" . $row['bookingID'] . "'>update</a>"; ?></button></td>
+                                    <td><button type="submit" type="button" class="btn"><?php echo  "<a href='deleteBooking.php?id=" . $row['bookingID'] . "' >delete</a>"; ?></button><button name="update"  type="submit" onclick="" type="button" class="btn btn-outline-warning"><?php echo  "<a href='editBooking.php?id=" . $row['bookingID'] . "'>update</a>"; ?></button></td>
                                     <td></td>
                                 </tr>
 
@@ -111,6 +109,7 @@ if (isset($_POST['but_logout'])) {
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
     <script src="../scripts/jquery-3.3.1.min.js "></script>

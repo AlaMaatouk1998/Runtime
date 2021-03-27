@@ -103,4 +103,43 @@ footer {
   color: #ffffff;
   font-size: 15px;
   margin-bottom: 0px;
+<<<<<<< HEAD
+=======
+}
+.footer-section-inner-container {
+  margin: 15px 0;
+  padding: 25px;
+  width: 100%;
+  background-color: #333385e0;
+  text-align: justify;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+border-radius: 25px;
+box-shadow:  1px 1px 10px 0px #000000ab;}
+.footer-section h2{
+  color: #33338c;
+}
+.footer-section-inner-container > span {
+  margin: 10px 0;
+  display: -webkit-inline-box;
+}
+p {
+  margin-top: 0;
+  padding-left: 4%;
+  margin-bottom: 1rem;
+}
+.cord{
+  padding-top: 100px;
+}
+.content p{
+color: #33338c;
+}
+hr{
+  background-color: #33338c;
+  height: 1px;
+}
+.footer-section2{
+  padding-top: 75px;
+>>>>>>> 355443cbc91d48edb38aa49c1cf3f1db3b3f73d2
 }
