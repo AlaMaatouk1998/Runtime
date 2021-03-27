@@ -737,6 +737,7 @@ footer {
   border-right: 0;
   border-left: 0;
   border-radius: 5px;
+  outline: none;
 }
 
 .contact-us-section1 form button {
