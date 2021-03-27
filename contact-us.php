@@ -18,7 +18,8 @@
     ?>
     <header></header>
     <div class="contact-us-container">
-        <div class="gmap_canvas"><iframe id="gmap_canvas" src="https://maps.google.com/maps?width=100%25&height=500&hl=en&q=Rue%20de%20Tunis,%20Bizerte%207000+()&t=&z=19&ie=UTF8&iwloc=B&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        <div class="gmap_canvas"><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=BUE&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+        </iframe>
         </div><div class="contact-us-section contact-us-section1">
             <h5>Contact Us</h5>
             
