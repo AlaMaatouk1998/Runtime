@@ -55,7 +55,7 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="navbar-brand">
-                        <a href="index.php"><img src="img/majes.png" style="max-width: 150px;padding: 10px;"></a>
+                        <a href="index.php"><img src="img/majes.png" style="max-width: 150px;padding: 10px;border-radius: 0px;"></a>
                     </div>
                 </div>
                 <div class="col-md-9">
