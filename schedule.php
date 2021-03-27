@@ -12,11 +12,13 @@
     <script src="_.js "></script>
 </head>
 
-<header></header>
+<header style="
+    height: 80px;
+"></header>
 
-<body>
+<body     height: 2500px;
+>
     <div class="schedule-section">
-        <h1>Schedule</h1>
         <div class="schedule-dates">
             <div class="schedule-item">March 10,2019</div>
             <div class="schedule-item schedule-item-selected">March 11,2019</div>

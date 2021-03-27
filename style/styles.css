@@ -597,9 +597,9 @@ footer {
   border-color: #33338c;
   font-family: poppins;
   padding: 15px;
-  background-color: #fff;
+  background-color: #122446;
   margin-right: 20px;
-  color: #33338c;
+  color: white;
   cursor: pointer;
   transition: all 0.5s ease;
   box-shadow: 0px 0px 5px 1px;
@@ -621,7 +621,6 @@ footer {
 }
 
 .schedule-table table {
-  background-color: white;
   text-align: left;
     border-collapse: collapse;
     border-radius: 25px;
@@ -630,8 +629,6 @@ footer {
 
 .schedule-table table tr th {
   padding: 10px 0 10px 40px;
-  background-color: #33338c;
-  border: 3px solid #fff;
   border-radius: 0px 25px 0px 0px;
   color: #fff;
 }
@@ -1042,11 +1039,6 @@ input.btn.btn-outline-warning {
   transition: all 0.3s ease;
   position: relative;
   cursor: pointer;
-}
-.table-title h2{
-  color: #33338c;
-  margin-bottom: 10px;
-  border-bottom: 2px solid #F19A3E;
 }
 button.btn {
   color: #F19A3E;
