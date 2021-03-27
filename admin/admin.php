@@ -15,17 +15,15 @@ if (!isset($_SESSION['uname'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Admin Dashboard</title>
-    <link rel="stylesheet" href="../style/styles.css">
-<link  rel="stylesheet" href="./admin.css">
+    <link  rel="stylesheet" href="./admin.css">
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+    <link href="C:\xampp\htdocs\movie\bootstrap-5.0.0-beta3-dist\bootstrap-5.0.0-beta3-dist\css\bootstrap.min.css" rel="stylesheet">
 <style>
 body{
     backgorund-color:white ! important;
 }
 </style>
-<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
-<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
-    <link href="C:\xampp\htdocs\movie\bootstrap-5.0.0-beta3-dist\bootstrap-5.0.0-beta3-dist\css\bootstrap.min.css" rel="stylesheet">
-
 <body>
     <?php
     $sql = "SELECT * FROM bookingtable";
