@@ -126,16 +126,17 @@ $row = mysqli_fetch_array($movieImageById);
                         <option style="color:gray" value="24-00">12:00 PM</option>
                     </select>
 
-                    <input placeholder=" 웃  First Name" type="text" name="fName" required="">
-                    <input placeholder=" 웃  Last Name" type="text" name="lName">
+                    <input style="color:gray" placeholder=" 웃  First Name" type="text" name="fName" required="">
+                    <input style="color:gray" placeholder=" 웃  Last Name" type="text" name="lName">
 
-                    <input placeholder="✆  Phone Number" type="text" name="pNumber" required="">    
-                    <input placeholder="⌧  email" type="email" name="email" required="">
+                    <input style="color:gray" placeholder="✆  Phone Number" type="text" name="pNumber" required="">    
+                    <input style="color:gray" placeholder="⌧  email" type="email" name="email" required="">
                     <input type="hidden" name="movie_id" value="5">
                     <input type="hidden" name="seat_table" value="Q6">
 
 
-                    <button href="../index.php" type="submit" value="save" name="submit" class="form-btn">Get Your tocket</button>
+                    <button href="../index.php" type="submit" value="save" name="submit" class="form-btn">Get Your ticket 
+                    </button>
 
 
                 </form>
