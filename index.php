@@ -39,7 +39,7 @@
       <img class="d-block w-100" src="img/movie-thumb-5.jpg" alt="Second slide">
       <div class="carousel-content">
         <p>VICE</p>
-        <a href="#">
+        <a href="SeatPreview/index.php?id=5">
             <button class="button_hcarou" type="button">
             <h4>Details</h4> 
             </button>
@@ -50,7 +50,7 @@
       <img class="d-block w-100" src="img/movie-thumb-3.jpg" alt="Third slide">
       <div class="carousel-content">
         <p>The<br>Lego Movie</p>
-        <a href="#">
+        <a href="SeatPreview/index.php?id=3">
             <button class="button_hcarou" type="button">
             <h4>Details</h4> 
             </button>
