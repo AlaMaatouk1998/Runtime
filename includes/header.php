@@ -41,6 +41,7 @@
   max-height: 95px;
   background-color: rgba(0,0,0,0.5)!important;
   transition: background-color 1s ease !important;
+  border-radius: 0px !important;
 }
 
 .sticky + .content {
