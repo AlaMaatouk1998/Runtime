@@ -40,7 +40,11 @@ $qry = "INSERT INTO bookingtable(`movieID`, `bookingTheatre`, `bookingType`, `bo
 $result = mysqli_query($con, $qry);
 
 }
-
+for($x=0; $x < $N; $x++)
+{
+$qry = "UPDATE `seats` SET `available`=1 WHERE `seat_id`='$i[$x]'";
+$result = mysqli_query($con, $qry);
+}
 }
 
 ?>

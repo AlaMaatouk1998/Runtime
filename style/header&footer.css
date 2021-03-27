@@ -30,6 +30,7 @@
   background-color: transparent !important;
   position: absolute;
   z-index: 999;
+  overflow: hidden;
 }
 .header_menu{
     background-color: transparent;
@@ -45,6 +46,7 @@
   .navbar {
     display: flex;
     justify-content: center !important;
+    padding: 23px;
   }
   #main_nav{
     float: right;
@@ -79,4 +81,26 @@
     color: #ffffff !important;
     font-weight: 700;
 }
-  
+footer {
+  display: grid;
+  grid-gap: 5px;
+  padding:0px;
+  background-color: #ffffff;
+  color: #233657 !important;
+  bottom: 0;
+  width: 100%;
+  /* margin-top: 40px; */
+}
+.info {
+  padding-left: 57px;
+  padding-top: 14px;
+  color: #233657;
+}
+.row{
+  width: inherit;
+}
+.footer_text-f{
+  color: #ffffff;
+  font-size: 15px;
+  margin-bottom: 0px;
+}

@@ -10,6 +10,19 @@ body{
 .h3, h3{
   font-size: 2rem !important;
 }
+.h5, h5{
+  font-size: 2rem !important;
+  color: #33338C;
+}
+.info {
+  margin-bottom: 20px;
+}
+.icon_pin {
+  color: red;
+}
+.icon_mobile{
+  color: blue;
+}
 
 .button {     
   background-color: Transparent;
@@ -76,7 +89,7 @@ header {
 
 .navbar-menu li a {
   display: block;
-  color: #969696;
+  color: #ffffff;
   text-align: center;
   padding: 12px 36px;
   text-decoration: none;
@@ -414,10 +427,8 @@ footer {
   display: grid;
   grid-gap: 25px;
   grid-template-columns: 1fr 3fr;
-  background-color: #fff;
-  padding: 40px;
-  box-shadow: 1px 0px 23px 3px rgba(0, 0, 0, 0.45);
-  -webkit-box-shadow: 1px 0px 23px 3px rgba(0, 0, 0, 0.45);
+  background-color: transparent;
+  padding: 0px;
   -moz-box-shadow: 1px 0px 23px 3px rgba(0, 0, 0, 0.45);
   transition: all 0.7s ease;
   width: 90%;
@@ -673,7 +684,8 @@ footer {
 
 #gmap_canvas {
   width: 100%;
-  height: 400px;
+  height: 800px;
+  width: 420px;
 }
 
 .contact-us-container {
@@ -681,6 +693,7 @@ footer {
   grid-gap: 25px;
   grid-template-areas: "contact-form contact-form contact-info";
   margin: 30px 15%;
+  padding: 100px;
 }
 
 .contact-us-section {

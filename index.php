@@ -100,7 +100,7 @@
         </div>
     </div>
     <div id="home-section-3" class="trailers-section">
-    <h1><strong style="margin-left: 0px;">Explore new movies</strong></h1>
+    <h1><strong style="margin-left: 0px;">Explore new movies with the Majestics</strong></h1>
     <h3><strong style="margin-left: 20px;">Now Showing</strong></h3>
         <div class="trailers-grid">
             <div class="trailers-grid-item">

@@ -1,4 +1,4 @@
-	<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" class="no-js">
 <?php
 $id = $_GET['id'];
@@ -9,7 +9,7 @@ $id = $_GET['id'];
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Perspective Seat Preview | Codrops</title>
+		<title>LE MAJESTIC</title>
 		<meta name="description" content="An experimental demo where a 3D perspective preview is shown for a selected seat in a cinema room." />
 		<meta name="keywords" content="cinema, seat booking, seating plan, perspective, 3d" />
 		<meta name="author" content="Codrops" />
@@ -689,133 +689,534 @@ $id = $_GET['id'];
 					<div  onclick="myFunction('A1')" class="row__seat tooltip" data-tooltip="M18"></div>
 				</div> -->
 				<div class="row">
-					<div  onclick="myFunction('N1')" class="row__seat tooltip" data-tooltip="N1"></div>
-					<div  onclick="myFunction('N2')" class="row__seat tooltip" data-tooltip="N2"></div>
-					<div class="row__seat row__seat--reserved"></div>
-					<div class="row__seat row__seat--reserved"></div>
-					<div  onclick="myFunction('N5')" class="row__seat tooltip" data-tooltip="N5"></div>
-					<div  onclick="myFunction('N6')" class="row__seat tooltip" data-tooltip="N6"></div>
-					<div  onclick="myFunction('N7')" class="row__seat tooltip" data-tooltip="N7"></div>
-					<div  onclick="myFunction('N8')" class="row__seat tooltip" data-tooltip="N8"></div>
-					<div  onclick="myFunction('N9')" class="row__seat tooltip" data-tooltip="N9"></div>
-					<div  onclick="myFunction('N10')" class="row__seat tooltip" data-tooltip="N10"></div>
-					<div  onclick="myFunction('N11')" class="row__seat tooltip" data-tooltip="N11"></div>
-					<div  onclick="myFunction('N12')" class="row__seat tooltip" data-tooltip="N12"></div>
-					<div  onclick="myFunction('N13')" class="row__seat tooltip" data-tooltip="N13"></div>
-					<div  onclick="myFunction('N14')" class="row__seat tooltip" data-tooltip="N14"></div>
-					<div  onclick="myFunction('N15')" class="row__seat tooltip" data-tooltip="N15"></div>
-					<div  onclick="myFunction('N16')" class="row__seat tooltip" data-tooltip="N16"></div>
-					<div  onclick="myFunction('N17')" class="row__seat tooltip" data-tooltip="N17"></div>
-					<div  onclick="myFunction('N18')" class="row__seat tooltip" data-tooltip="N18"></div>
+					<div id="n1" onclick="myFunction('N1')"  class="row__seat ali tooltip" data-tooltip="N1" value="N1"></div>
+					<div  id="n2"  onclick="myFunction('N2')" class="row__seat  ali covid tooltip" data-tooltip="N2" value="N2"></div>
+					<div   id="n3" onclick="myFunction('N3')" class="row__seat ali tooltip" data-tooltip="N3" value="N3"></div>
+					<div  id="n4" onclick="myFunction('N4')" class="row__seat  ali covid tooltip" data-tooltip="N4" value="N4"></div>
+					<div  id="n5" onclick="myFunction('N5')" class="row__seat ali tooltip" data-tooltip="N5" value="N5"></div>
+					<div  id="n6" onclick="myFunction('N6')" class="row__seat ali covid tooltip" data-tooltip="N6" value="N6"></div>
+					<div  id="n7" onclick="myFunction('N7')" class="row__seat alitooltip" data-tooltip="N7" value="N7"></div>
+					<div  id="n8" onclick="myFunction('N8')" class="row__seat  ali covid tooltip" data-tooltip="N8" value="N8"></div>
+					<div  id="n9" onclick="myFunction('N9')" class="row__seat ali tooltip" data-tooltip="N9" value="N9"></div>
+					<div  id="n10" onclick="myFunction('N10')" class="row__seat ali covid  tooltip" data-tooltip="N10" value="N10"></div>
+					<div  id="n11" onclick="myFunction('N11')" class="row__seat alitooltip" data-tooltip="N11" value="N11"></div>
+					<div  id="n12" onclick="myFunction('N12')" class="row__seat ali covid  tooltip" data-tooltip="N12" value="N12"></div>
+					<div  id="n13" onclick="myFunction('N13')" class="row__seat ali tooltip" data-tooltip="N13" value="N13"></div>
+					<div  id="n14" onclick="myFunction('N14')" class="row__seat covid ali tooltip" data-tooltip="N14" value="N14"></div>
+					<div  id="n15" onclick="myFunction('N15')" class="row__seat ali tooltip" data-tooltip="N15" value="N15"></div>
+					<div  id="n16" onclick="myFunction('N16')" class="row__seat covid ali tooltip" data-tooltip="N16" value="N16"></div>
+					<div  id="n17" onclick="myFunction('N17')" class="row__seat ali tooltip" data-tooltip="N17" value="N17"></div>
+					<div  id="n18" onclick="myFunction('N18')" class="row__seat covid ali tooltip" data-tooltip="N18" value="N18"></div>
 				</div>
 				<div class="row">
-					<div  onclick="myFunction('O1')" class="row__seat tooltip" data-tooltip="O1"></div>
-					<div  onclick="myFunction('O2')" class="row__seat tooltip" data-tooltip="O2"></div>
-					<div  onclick="myFunction('O3')" class="row__seat tooltip" data-tooltip="O3"></div>
-					<div  onclick="myFunction('O4')" class="row__seat tooltip" data-tooltip="O4"></div>
-					<div  onclick="myFunction('O5')" class="row__seat tooltip" data-tooltip="O5"></div>
-					<div  onclick="myFunction('O6')" class="row__seat tooltip" data-tooltip="O6"></div>
-					<div  onclick="myFunction('O7')" class="row__seat tooltip" data-tooltip="O7"></div>
-					<div  onclick="myFunction('O8')" class="row__seat tooltip" data-tooltip="O8"></div>
-					<div  onclick="myFunction('O9')" class="row__seat tooltip" data-tooltip="O9"></div>
-					<div  onclick="myFunction('O10')" class="row__seat tooltip" data-tooltip="O10"></div>
-					<div  onclick="myFunction('O11')" class="row__seat tooltip" data-tooltip="O11"></div>
-					<div  onclick="myFunction('O12')" class="row__seat tooltip" data-tooltip="O12"></div>
-					<div  onclick="myFunction('O13')" class="row__seat tooltip" data-tooltip="O13"></div>
-					<div class="row__seat row__seat--reserved"></div>
-					<div class="row__seat row__seat--reserved"></div>
-					<div  onclick="myFunction('O16')" class="row__seat tooltip" data-tooltip="O16"></div>
-					<div  onclick="myFunction('O17')" class="row__seat tooltip" data-tooltip="O17"></div>
-					<div  onclick="myFunction('O18')" class="row__seat tooltip" data-tooltip="O18"></div>
+					<div id="o1" onclick="myFunction('O1')" class="row__seat ali covid tooltip" data-tooltip="O1"  value="O1"></div>
+					<div id="o2" onclick="myFunction('O2')" class="row__seat ali tooltip" data-tooltip="O2"  value="O2"></div>
+					<div id="o3" onclick="myFunction('O3')" class="row__seat  ali covid tooltip" data-tooltip="O3"  value="O3"></div>
+					<div id="o4" onclick="myFunction('O4')" class="row__seat ali tooltip" data-tooltip="O4"  value="O4"></div>
+					<div  id="o5" onclick="myFunction('O5')" class="row__seat ali covid tooltip" data-tooltip="O5" value="O5"></div>
+					<div  id="o6" onclick="myFunction('O6')" class="row__seat ali tooltip" data-tooltip="O6" value="O6"></div>
+					<div id="o7" onclick="myFunction('O7')" class="row__seat ali covid tooltip" data-tooltip="O7" value="O7"></div>
+					<div id="o8" onclick="myFunction('O8')" class="row__seat ali tooltip" data-tooltip="O8" value="O8"></div>
+					<div   onclick="myFunction('O9')" class="row__seat ali covid tooltip" data-tooltip="O9" value="O9"></div>
+					<div  onclick="myFunction('O10')" class="row__seat  ali tooltip" data-tooltip="O10" value="10"></div>
+					<div  onclick="myFunction('O11')" class="row__seat ali covid  tooltip" data-tooltip="O11"></div>
+					<div  onclick="myFunction('O12')" class="row__seat ali tooltip" data-tooltip="O12"></div>
+					<div  onclick="myFunction('O13')" class="row__seat ali covid  tooltip" data-tooltip="O13"></div>
+					<div  onclick="myFunction('O14')" class="row__seat ali tooltip" data-tooltip="O14"></div>
+					<div  onclick="myFunction('O15')" class="row__seat ali covid  tooltip" data-tooltip="O15"></div>
+					<div  onclick="myFunction('O16')" class="row__seat ali tooltip" data-tooltip="O16"></div>
+					<div  onclick="myFunction('O17')" class="row__seat ali covid  tooltip" data-tooltip="O17"></div>
+					<div  onclick="myFunction('O18')" class="row__seat ali tooltip" data-tooltip="O18"></div>
 				</div>
 				<div class="row">
-					<div  onclick="myFunction('P1')" class="row__seat tooltip" data-tooltip="P1"></div>
-					<div  onclick="myFunction('P2')" class="row__seat tooltip" data-tooltip="P2"></div>
-					<div  onclick="myFunction('P3')" class="row__seat tooltip" data-tooltip="P3"></div>
-					<div  onclick="myFunction('P4')" class="row__seat tooltip" data-tooltip="P4"></div>
-					<div  onclick="myFunction('P5')" class="row__seat tooltip" data-tooltip="P5"></div>
-					<div  onclick="myFunction('P6')" class="row__seat tooltip" data-tooltip="P6"></div>
-					<div  onclick="myFunction('P7')" class="row__seat tooltip" data-tooltip="P7"></div>
-					<div  onclick="myFunction('P8')" class="row__seat tooltip" data-tooltip="P8"></div>
-					<div  onclick="myFunction('P9')" class="row__seat tooltip" data-tooltip="P9"></div>
-					<div  onclick="myFunction('P10')" class="row__seat tooltip" data-tooltip="P10"></div>
-					<div  onclick="myFunction('P11')" class="row__seat tooltip" data-tooltip="P11"></div>
-					<div  onclick="myFunction('P12')" class="row__seat tooltip" data-tooltip="P12"></div>
-					<div  onclick="myFunction('P13')" class="row__seat tooltip" data-tooltip="P13"></div>
-					<div  onclick="myFunction('P14')" class="row__seat tooltip" data-tooltip="P14"></div>
-					<div  onclick="myFunction('P15')" class="row__seat tooltip" data-tooltip="P15"></div>
-					<div  onclick="myFunction('P16')" class="row__seat tooltip" data-tooltip="P16"></div>
-					<div  onclick="myFunction('P17')" class="row__seat tooltip" data-tooltip="P17"></div>
-					<div  onclick="myFunction('P18')" class="row__seat tooltip" data-tooltip="P18"></div>
+					<div  onclick="myFunction('P1')" class="row__seat ali tooltip" data-tooltip="P1"></div>
+					<div  onclick="myFunction('P2')" class="row__seat ali covid tooltip" data-tooltip="P2"></div>
+					<div  onclick="myFunction('P3')" class="row__seat ali tooltip" data-tooltip="P3"></div>
+					<div  onclick="myFunction('P4')" class="row__seat ali covid tooltip" data-tooltip="P4"></div>
+					<div  onclick="myFunction('P5')" class="row__seat  alitooltip" data-tooltip="P5"></div>
+					<div  onclick="myFunction('P6')" class="row__seat ali covid tooltip" data-tooltip="P6"></div>
+					<div  onclick="myFunction('P7')" class="row__seat  ali tooltip" data-tooltip="P7"></div>
+					<div  onclick="myFunction('P8')" class="row__seat ali covid tooltip" data-tooltip="P8"></div>
+					<div  onclick="myFunction('P9')" class="row__seat  ali tooltip" data-tooltip="P9"></div>
+					<div  onclick="myFunction('P10')" class="row__seat covid ali tooltip" data-tooltip="P10"></div>
+					<div  onclick="myFunction('P11')" class="row__seat ali tooltip" data-tooltip="P11"></div>
+					<div  onclick="myFunction('P12')" class="row__seat ali covid  tooltip" data-tooltip="P12"></div>
+					<div  onclick="myFunction('P13')" class="row__seat ali tooltip" data-tooltip="P13"></div>
+					<div  onclick="myFunction('P14')" class="row__seat ali covid  tooltip" data-tooltip="P14"></div>
+					<div  onclick="myFunction('P15')" class="row__seat ali tooltip" data-tooltip="P15"></div>
+					<div  onclick="myFunction('P16')" class="row__seat ali covid  tooltip" data-tooltip="P16"></div>
+					<div  onclick="myFunction('P17')" class="row__seat ali tooltip" data-tooltip="P17"></div>
+					<div  onclick="myFunction('P18')" class="row__seat ali covid  tooltip" data-tooltip="P18"></div>
 				</div>
 				<div class="row">
-					<div  onclick="myFunction('Q1')" class="row__seat tooltip" data-tooltip="Q1"></div>
-					<div  onclick="myFunction('Q2')" class="row__seat tooltip" data-tooltip="Q2"></div>
-					<div  onclick="myFunction('Q3')" class="row__seat tooltip" data-tooltip="Q3"></div>
-					<div  onclick="myFunction('Q4')" class="row__seat tooltip" data-tooltip="Q4"></div>
-					<div  onclick="myFunction('Q5')" class="row__seat tooltip" data-tooltip="Q5"></div>
-					<div  onclick="myFunction('Q6')" class="row__seat tooltip" data-tooltip="Q6"></div>
-					<div  onclick="myFunction('Q7')" class="row__seat tooltip" data-tooltip="Q7"></div>
-					<div  onclick="myFunction('Q8')" class="row__seat tooltip" data-tooltip="Q8"></div>
-					<div  onclick="myFunction('Q9')" class="row__seat tooltip" data-tooltip="Q9"></div>
-					<div  onclick="myFunction('Q10')" class="row__seat tooltip" data-tooltip="Q10"></div>
-					<div  onclick="myFunction('Q11')" class="row__seat tooltip" data-tooltip="Q11"></div>
-					<div  onclick="myFunction('Q12')" class="row__seat tooltip" data-tooltip="Q12"></div>
-					<div  onclick="myFunction('Q13')" class="row__seat tooltip" data-tooltip="Q13"></div>
-					<div  onclick="myFunction('Q14')" class="row__seat tooltip" data-tooltip="Q14"></div>
-					<div  onclick="myFunction('Q15')" class="row__seat tooltip" data-tooltip="Q15"></div>
-					<div  onclick="myFunction('Q16')" class="row__seat tooltip" data-tooltip="Q16"></div>
-					<div  onclick="myFunction('Q17')" class="row__seat tooltip" data-tooltip="Q17"></div>
-					<div  onclick="myFunction('Q18')" class="row__seat tooltip" data-tooltip="Q18"></div>
+					<div  onclick="myFunction('Q1')" class="row__seat ali  covid tooltip" data-tooltip="Q1"></div>
+					<div  onclick="myFunction('Q2')" class="row__seat ali tooltip" data-tooltip="Q2"></div>
+					<div  onclick="myFunction('Q3')" class="row__seat  ali covid tooltip" data-tooltip="Q3"></div>
+					<div  onclick="myFunction('Q4')" class="row__seat ali tooltip" data-tooltip="Q4"></div>
+					<div  onclick="myFunction('Q5')" class="row__seat ali covid tooltip" data-tooltip="Q5"></div>
+					<div  onclick="myFunction('Q6')" class="row__seat  ali tooltip" data-tooltip="Q6"></div>
+					<div  onclick="myFunction('Q7')" class="row__seat ali covid tooltip" data-tooltip="Q7"></div>
+					<div  onclick="myFunction('Q8')" class="row__seat  ali tooltip" data-tooltip="Q8"></div>
+					<div  onclick="myFunction('Q9')" class="row__seat  ali covid tooltip" data-tooltip="Q9"></div>
+					<div  onclick="myFunction('Q10')" class="row__seat ali tooltip" data-tooltip="Q10"></div>
+					<div  onclick="myFunction('Q11')" class="row__seat ali covid  tooltip" data-tooltip="Q11"></div>
+					<div  onclick="myFunction('Q12')" class="row__seat ali tooltip" data-tooltip="Q12"></div>
+					<div  onclick="myFunction('Q13')" class="row__seat ali covid  tooltip" data-tooltip="Q13"></div>
+					<div  onclick="myFunction('Q14')" class="row__seat ali tooltip" data-tooltip="Q14"></div>
+					<div  onclick="myFunction('Q15')" class="row__seat ali covid  tooltip" data-tooltip="Q15"></div>
+					<div  onclick="myFunction('Q16')" class="row__seat ali tooltip" data-tooltip="Q16"></div>
+					<div  onclick="myFunction('Q17')" class="row__seat ali covid  tooltip" data-tooltip="Q17"></div>
+					<div  onclick="myFunction('Q18')" class="row__seat ali tooltip" data-tooltip="Q18"></div>
 				</div>
 				<div class="row">
-					<div  onclick="myFunction('R1')" class="row__seat tooltip" data-tooltip="R1"></div>
-					<div  onclick="myFunction('R2')" class="row__seat tooltip" data-tooltip="R2"></div>
-					<div  onclick="myFunction('R3')" class="row__seat tooltip" data-tooltip="R3"></div>
-					<div  onclick="myFunction('R4')" class="row__seat tooltip" data-tooltip="R4"></div>
-					<div  onclick="myFunction('R5')" class="row__seat tooltip" data-tooltip="R5"></div>
-					<div  onclick="myFunction('R6')" class="row__seat tooltip" data-tooltip="R6"></div>
-					<div  onclick="myFunction('R7')" class="row__seat tooltip" data-tooltip="R7"></div>
-					<div  onclick="myFunction('R8')" class="row__seat tooltip" data-tooltip="R8"></div>
-					<div  onclick="myFunction('R9')" class="row__seat tooltip" data-tooltip="R9"></div>
-					<div  onclick="myFunction('R10')" class="row__seat tooltip" data-tooltip="R10"></div>
-					<div  onclick="myFunction('R11')" class="row__seat tooltip" data-tooltip="R11"></div>
-					<div  onclick="myFunction('R12')" class="row__seat tooltip" data-tooltip="R12"></div>
-					<div  onclick="myFunction('R13')" class="row__seat tooltip" data-tooltip="R13"></div>
-					<div  onclick="myFunction('R14')" class="row__seat tooltip" data-tooltip="R14"></div>
-					<div  onclick="myFunction('R15')" class="row__seat tooltip" data-tooltip="R15"></div>
-					<div  onclick="myFunction('R16')" class="row__seat tooltip" data-tooltip="R16"></div>
-					<div  onclick="myFunction('R17')" class="row__seat tooltip" data-tooltip="R17"></div>
-					<div  onclick="myFunction('R18')" class="row__seat tooltip" data-tooltip="R18"></div>
+					<div  onclick="myFunction('R1')" class="row__seat ali tooltip" data-tooltip="R1"></div>
+					<div  onclick="myFunction('R2')" class="row__seat ali covid tooltip" data-tooltip="R2"></div>
+					<div  onclick="myFunction('R3')" class="row__seat ali tooltip" data-tooltip="R3"></div>
+					<div  onclick="myFunction('R4')" class="row__seat  ali covid tooltip" data-tooltip="R4"></div>
+					<div  onclick="myFunction('R5')" class="row__seat ali tooltip" data-tooltip="R5"></div>
+					<div  onclick="myFunction('R6')" class="row__seat  ali covid tooltip" data-tooltip="R6"></div>
+					<div  onclick="myFunction('R7')" class="row__seat ali tooltip" data-tooltip="R7"></div>
+					<div  onclick="myFunction('R8')" class="row__seat ali covid tooltip" data-tooltip="R8"></div>
+					<div  onclick="myFunction('R9')" class="row__seat ali tooltip" data-tooltip="R9"></div>
+					<div  onclick="myFunction('R10')" class="row__seat ali covid  tooltip" data-tooltip="R10"></div>
+					<div  onclick="myFunction('R11')" class="row__seat ali tooltip" data-tooltip="R11"></div>
+					<div  onclick="myFunction('R12')" class="row__seat ali covid  tooltip" data-tooltip="R12"></div>
+					<div  onclick="myFunction('R13')" class="row__seat ali tooltip" data-tooltip="R13"></div>
+					<div  onclick="myFunction('R14')" class="row__seat ali covid  tooltip" data-tooltip="R14"></div>
+					<div  onclick="myFunction('R15')" class="row__seat ali tooltip" data-tooltip="R15"></div>
+					<div  onclick="myFunction('R16')" class="row__seat ali covid  tooltip" data-tooltip="R16"></div>
+					<div  onclick="myFunction('R17')" class="row__seat ali tooltip" data-tooltip="R17"></div>
+					<div onclick="myFunction('R18')" class="row__seat ali tooltip covid" data-tooltip="R18"></div>
 				</div>
 			</div>
 			<!-- /rows -->
 			<ul class="legend">
-<<<<<<< HEAD
          	    <li class="legend__item legend__item--free">Free</li>
 				<li class="legend__item legend__item--reserved">Reserved</li>
 				<li class="legend__item legend__item--selected">Selected</li>
             </ul>
            <!-- <a href="index1.html" class="action action--buy">Buy tickets</a>-->
-            <form action="../booking.php" method="post">
-=======
-				<li class="legend__item legend__item--free">Free</li>
-				<li class="legend__item legend__item--reserved">Reserved</li>
-				<li class="legend__item legend__item--selected">Selected</li>
-			</ul>
-			<a href="index1.html" class="action action--buy">Buy tickets</a>
+
 			<form action="../booking.php" method="post">
->>>>>>> fb56258b57efdf1e33fecc3a5209e6e95d18aa33
 <input type="text" id="lname" name="lname[]" value="0"><br><br>
 <input type="hidden" name="id" value="<?php echo $id; ?>">
 
-  <input type="submit" value="Submit">
+  <input type="submit" class="action action--buy" value="Buy tickets">
 </form>
+		<button onclick="CovidFunction()">Try it</button>
+
 		</div><!-- /plan -->
 		<button class="action action--lookaround action--disabled" arial-label="Unlook View"></button>
 		<script src="js/classie.js"></script>
 		<script src="js/main.js"></script>
+				<script>
+
+//   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  var e = document.getElementById("n1");
+  var row = <?php
+  
+  include "../connection.php";
+  $movieQuery = "SELECT * FROM seats WHERE seat_id = 'N1'";
+  $movieImageById = mysqli_query($con, $movieQuery);
+  $row = mysqli_fetch_array($movieImageById);
+  echo $row['available'] ;
+   ?>;
+ console.log(row) ;
+ if (row==1)
+{    e.classList.add("row__seat--reserved");
+				e.classList.add("row__seat");}
+else   {
+	  e.classList.add("row__seat");
+				e.classList.add("tooltip");}
+
+//   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+var e = document.getElementById("n2");
+  var row = <?php
+  
+  include "../connection.php";
+  $movieQuery = "SELECT * FROM seats WHERE seat_id = 'N2'";
+  $movieImageById = mysqli_query($con, $movieQuery);
+  $row = mysqli_fetch_array($movieImageById);
+  echo $row['available'] ;
+   ?>;
+ console.log(row) ;
+ if (row==1)
+{    e.classList.add("row__seat--reserved");
+				e.classList.add("row__seat");}
+else   {
+	  e.classList.add("row__seat");
+				e.classList.add("tooltip");}
+//   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+var e = document.getElementById("n3");
+  var row = <?php
+  
+  include "../connection.php";
+  $movieQuery = "SELECT * FROM seats WHERE seat_id = 'N3'";
+  $movieImageById = mysqli_query($con, $movieQuery);
+  $row = mysqli_fetch_array($movieImageById);
+  echo $row['available'] ;
+   ?>;
+ console.log(row) ;
+ if (row==1)
+{    e.classList.add("row__seat--reserved");
+				e.classList.add("row__seat");}
+else   {
+	  e.classList.add("row__seat");
+				e.classList.add("tooltip");}
+//   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+var e = document.getElementById("n4");
+  var row = <?php
+  
+  include "../connection.php";
+  $movieQuery = "SELECT * FROM seats WHERE seat_id = 'N4'";
+  $movieImageById = mysqli_query($con, $movieQuery);
+  $row = mysqli_fetch_array($movieImageById);
+  echo $row['available'] ;
+   ?>;
+ console.log(row) ;
+ if (row==1)
+{    e.classList.add("row__seat--reserved");
+				e.classList.add("row__seat");}
+else   {
+	  e.classList.add("row__seat");
+				e.classList.add("tooltip");}
+//   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+var e = document.getElementById("n5");
+  var row = <?php
+  
+  include "../connection.php";
+  $movieQuery = "SELECT * FROM seats WHERE seat_id = 'N5'";
+  $movieImageById = mysqli_query($con, $movieQuery);
+  $row = mysqli_fetch_array($movieImageById);
+  echo $row['available'] ;
+   ?>;
+ console.log(row) ;
+ if (row==1)
+{    e.classList.add("row__seat--reserved");
+				e.classList.add("row__seat");}
+else   {
+	  e.classList.add("row__seat");
+				e.classList.add("tooltip");}
+//   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+var e = document.getElementById("n6");
+  var row = <?php
+  
+  include "../connection.php";
+  $movieQuery = "SELECT * FROM seats WHERE seat_id = 'N6'";
+  $movieImageById = mysqli_query($con, $movieQuery);
+  $row = mysqli_fetch_array($movieImageById);
+  echo $row['available'] ;
+   ?>;
+ console.log(row) ;
+ if (row==1)
+{    e.classList.add("row__seat--reserved");
+				e.classList.add("row__seat");}
+else   {
+	  e.classList.add("row__seat");
+				e.classList.add("tooltip");}
+//   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+var e = document.getElementById("n7");
+  var row = <?php
+  
+  include "../connection.php";
+  $movieQuery = "SELECT * FROM seats WHERE seat_id = 'N7'";
+  $movieImageById = mysqli_query($con, $movieQuery);
+  $row = mysqli_fetch_array($movieImageById);
+  echo $row['available'] ;
+   ?>;
+ console.log(row) ;
+ if (row==1)
+{    e.classList.add("row__seat--reserved");
+				e.classList.add("row__seat");}
+else   {
+	  e.classList.add("row__seat");
+				e.classList.add("tooltip");}
+//   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+var e = document.getElementById("n8");
+  var row = <?php
+  
+  include "../connection.php";
+  $movieQuery = "SELECT * FROM seats WHERE seat_id = 'N8'";
+  $movieImageById = mysqli_query($con, $movieQuery);
+  $row = mysqli_fetch_array($movieImageById);
+  echo $row['available'] ;
+   ?>;
+ console.log(row) ;
+ if (row==0)
+{    e.classList.add("row__seat--reserved");
+				e.classList.add("row__seat");}
+else   {
+	  e.classList.add("row__seat");
+				e.classList.add("tooltip");}
+//AAAAAAAAAAAAAAAAAAAAAAAAAAA
+var e = document.getElementById("n9");
+  var row = <?php
+  
+  include "../connection.php";
+  $movieQuery = "SELECT * FROM seats WHERE seat_id = 'N9'";
+  $movieImageById = mysqli_query($con, $movieQuery);
+  $row = mysqli_fetch_array($movieImageById);
+  echo $row['available'] ;
+   ?>;
+ console.log(row) ;
+ if (row==1)
+{    e.classList.add("row__seat--reserved");
+				e.classList.add("row__seat");}
+else   {
+	  e.classList.add("row__seat");
+				e.classList.add("tooltip");}
+//   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+var e = document.getElementById("n10");
+  var row = <?php
+  
+  include "../connection.php";
+  $movieQuery = "SELECT * FROM seats WHERE seat_id = 'N10'";
+  $movieImageById = mysqli_query($con, $movieQuery);
+  $row = mysqli_fetch_array($movieImageById);
+  echo $row['available'] ;
+   ?>;
+ console.log(row) ;
+ if (row==1)
+{    e.classList.add("row__seat--reserved");
+				e.classList.add("row__seat");}
+else   {
+	  e.classList.add("row__seat");
+				e.classList.add("tooltip");}
+//   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+var e = document.getElementById("n11");
+  var row = <?php
+  
+  include "../connection.php";
+  $movieQuery = "SELECT * FROM seats WHERE seat_id = 'N11'";
+  $movieImageById = mysqli_query($con, $movieQuery);
+  $row = mysqli_fetch_array($movieImageById);
+  echo $row['available'] ;
+   ?>;
+ console.log(row) ;
+ if (row==1)
+{    e.classList.add("row__seat--reserved");
+				e.classList.add("row__seat");}
+else   {
+	  e.classList.add("row__seat");
+				e.classList.add("tooltip");}
+//   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+var e = document.getElementById("n12");
+  var row = <?php
+  
+  include "../connection.php";
+  $movieQuery = "SELECT * FROM seats WHERE seat_id = 'N12'";
+  $movieImageById = mysqli_query($con, $movieQuery);
+  $row = mysqli_fetch_array($movieImageById);
+  echo $row['available'] ;
+   ?>;
+ console.log(row) ;
+ if (row==1)
+{    e.classList.add("row__seat--reserved");
+				e.classList.add("row__seat");}
+else   {
+	  e.classList.add("row__seat");
+				e.classList.add("tooltip");}
+//   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+var e = document.getElementById("o1");
+  var row = <?php
+  
+  include "../connection.php";
+  $movieQuery = "SELECT * FROM seats WHERE seat_id = 'O1'";
+  $movieImageById = mysqli_query($con, $movieQuery);
+  $row = mysqli_fetch_array($movieImageById);
+  echo $row['available'] ;
+   ?>;
+ console.log(row) ;
+ if (row==1)
+{    e.classList.add("row__seat--reserved");
+				e.classList.add("row__seat");}
+else   {
+	  e.classList.add("row__seat");
+				e.classList.add("tooltip");}
+//   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+var e = document.getElementById("o2");
+  var row = <?php
+  
+  include "../connection.php";
+  $movieQuery = "SELECT * FROM seats WHERE seat_id = 'O2'";
+  $movieImageById = mysqli_query($con, $movieQuery);
+  $row = mysqli_fetch_array($movieImageById);
+  echo $row['available'] ;
+   ?>;
+ console.log(row) ;
+ if (row==1)
+{    e.classList.add("row__seat--reserved");
+				e.classList.add("row__seat");}
+else   {
+	  e.classList.add("row__seat");
+				e.classList.add("tooltip");}
+//   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+//   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+var e = document.getElementById("o3");
+  var row = <?php
+  
+  include "../connection.php";
+  $movieQuery = "SELECT * FROM seats WHERE seat_id = 'O3'";
+  $movieImageById = mysqli_query($con, $movieQuery);
+  $row = mysqli_fetch_array($movieImageById);
+  echo $row['available'] ;
+   ?>;
+ console.log(row) ;
+ if (row==1)
+{    e.classList.add("row__seat--reserved");
+				e.classList.add("row__seat");}
+else   {
+	  e.classList.add("row__seat");
+				e.classList.add("tooltip");}
+//   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+var e = document.getElementById("o4");
+  var row = <?php
+  
+  include "../connection.php";
+  $movieQuery = "SELECT * FROM seats WHERE seat_id = 'O4'";
+  $movieImageById = mysqli_query($con, $movieQuery);
+  $row = mysqli_fetch_array($movieImageById);
+  echo $row['available'] ;
+   ?>;
+ console.log(row) ;
+ if (row==1)
+{    e.classList.add("row__seat--reserved");
+				e.classList.add("row__seat");}
+else   {
+	  e.classList.add("row__seat");
+				e.classList.add("tooltip");}
+//   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+var e = document.getElementById("o5");
+  var row = <?php
+  
+  include "../connection.php";
+  $movieQuery = "SELECT * FROM seats WHERE seat_id = 'O5'";
+  $movieImageById = mysqli_query($con, $movieQuery);
+  $row = mysqli_fetch_array($movieImageById);
+  echo $row['available'] ;
+   ?>;
+ console.log(row) ;
+ if (row==1)
+{    e.classList.add("row__seat--reserved");
+				e.classList.add("row__seat");}
+else   {
+	  e.classList.add("row__seat");
+				e.classList.add("tooltip");}
+//   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+var e = document.getElementById("o6");
+  var row = <?php
+  
+  include "../connection.php";
+  $movieQuery = "SELECT * FROM seats WHERE seat_id = 'O6'";
+  $movieImageById = mysqli_query($con, $movieQuery);
+  $row = mysqli_fetch_array($movieImageById);
+  echo $row['available'] ;
+   ?>;
+ console.log(row) ;
+ if (row==1)
+{    e.classList.add("row__seat--reserved");
+				e.classList.add("row__seat");}
+else   {
+	  e.classList.add("row__seat");
+				e.classList.add("tooltip");}
+//   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+var e = document.getElementById("o7");
+  var row = <?php
+  
+  include "../connection.php";
+  $movieQuery = "SELECT * FROM seats WHERE seat_id = 'O7'";
+  $movieImageById = mysqli_query($con, $movieQuery);
+  $row = mysqli_fetch_array($movieImageById);
+  echo $row['available'] ;
+   ?>;
+ console.log(row) ;
+ if (row==1)
+{    e.classList.add("row__seat--reserved");
+				e.classList.add("row__seat");}
+else   {
+	  e.classList.add("row__seat");
+				e.classList.add("tooltip");}
+//   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+var e = document.getElementById("o8");
+  var row = <?php
+  
+  include "../connection.php";
+  $movieQuery = "SELECT * FROM seats WHERE seat_id = 'O8'";
+  $movieImageById = mysqli_query($con, $movieQuery);
+  $row = mysqli_fetch_array($movieImageById);
+  echo $row['available'] ;
+   ?>;
+ console.log(row) ;
+ if (row==1)
+{    e.classList.add("row__seat--reserved");
+				e.classList.add("row__seat");}
+else   {
+	  e.classList.add("row__seat");
+				e.classList.add("tooltip");}
+//   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+var e = document.getElementById("o9");
+  var row = <?php
+  
+  include "../connection.php";
+  $movieQuery = "SELECT * FROM seats WHERE seat_id = 'O9'";
+  $movieImageById = mysqli_query($con, $movieQuery);
+  $row = mysqli_fetch_array($movieImageById);
+  echo $row['available'] ;
+   ?>;
+ console.log(row) ;
+ if (row==1)
+{    e.classList.add("row__seat--reserved");
+				e.classList.add("row__seat");}
+else   {
+	  e.classList.add("row__seat");
+				e.classList.add("tooltip");}
+//   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+var e = document.getElementById("o10");
+  var row = <?php
+  
+  include "../connection.php";
+  $movieQuery = "SELECT * FROM seats WHERE seat_id = 'O10'";
+  $movieImageById = mysqli_query($con, $movieQuery);
+  $row = mysqli_fetch_array($movieImageById);
+  echo $row['available'] ;
+   ?>;
+ console.log(row) ;
+ if (row==1)
+{    e.classList.add("row__seat--reserved");
+				e.classList.add("row__seat");}
+else   {
+	  e.classList.add("row__seat");
+				e.classList.add("tooltip");}
+//   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+		function CovidFunction() {
+  		 var element = document.getElementsByClassName("covid");
+  		 for(var i=0; i<element.length; i++) {
+  		 element[i].classList.add("row__seat--reserved");
+  		 element[i].classList.add("row__seat");
+  		 element[i].setAttribute('data-tooltip','Safety');
+  		 element[i].setAttribute('onclick','');
+  		 element[i].style.backgroundColor = "#ffc100";
+  		}
+  		}
+			</script>
 		<script>
+
 var ids = [];
 function myFunction(x) {
   ids.push(x);
